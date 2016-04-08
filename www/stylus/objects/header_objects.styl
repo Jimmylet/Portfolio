@@ -1,0 +1,98 @@
+.header
+  position: relative
+  left 0
+  right 0
+  box-sizing content-box
+  height 5.1rem
+  &__title
+    display none
+  &__logo
+    display inline-block
+
+.menu
+  display inline-flex
+  flex-wrap nowrap
+  height 100%
+  float: right
+  &__title
+    display: none
+  &__item
+    padding 0 2.5rem
+
+.container
+  overflow hidden
+  margin 0 20px
+  *zoom: 1;
+
+menu-res-width = 25rem
+
+
+@media screen and (max-width: 750px)
+
+  .site-pusher
+    transition trans
+    transform translateX(0px)
+    height: 100%
+
+  .site-container
+    overflow: hidden
+    height: 100%
+
+  .site-content
+    height: 100%
+    overflow-scrolling touch
+    overflow-y scroll
+
+
+  .header
+    position: static
+    &__icon
+      position: relative
+      display block
+      font-size: 0
+      float right
+      &:after
+        content ""
+        width 4rem
+        height: 4rem
+        background-image url(../img/svg/menu-icon.svg)
+        background-repeat no-repeat
+        background-position center
+        display inline-block
+
+  .menu
+    position: absolute
+    right: 0
+    top: 0
+    bottom: 0
+    overflow-y: scroll
+    background-color color-header-bluedark - 5%
+    width: menu-res-width
+    display none
+    flex-direction column
+    transform translateX(25rem)
+    transition trans
+    &__item
+      border-bottom 2px solid color-header-bluedark - 30%
+      padding-left 4rem
+      display flex
+
+
+  .with--sidebar
+    overflow hidden
+    height 100%
+    .site-pusher
+      transform translateX(-250px)
+    .menu
+      display: inline-block
+      overflow-y hidden
+      overflow hidden
+      position: fixed
+    .site-cache
+      position: absolute
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background-color rgba(0,0,0,.6)
+
