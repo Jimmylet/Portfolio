@@ -58,6 +58,24 @@
         background-position center
         display inline-block
 
+
+
+  .header__icon
+    display none
+    &__label
+      cursor pointer
+      font-size: 0
+      float: right
+    &__label:after
+      content ""
+      width 6rem
+      height: 5.1rem
+      background-image url(../img/svg/menu-icon.svg)
+      background-repeat no-repeat
+      background-position center
+      display inline-block
+
+
   .menu
     position: absolute
     right: 0
@@ -67,16 +85,11 @@
     flex-direction column
     &__item
       padding-left 4rem
-      display flex
 
 
   .with--sidebar
     overflow hidden
     height 100%
-    .menu
-      //display: inline-block
-      //overflow hidden
-      //position: fixed
     .site-cache
       position: absolute
       left: 0
@@ -84,3 +97,15 @@
       top: 0
       bottom: 0
 
+  .header__icon:checked
+    transform: translateX(-250px);
+    transition: trans
+
+  .header__icon:checked ~ .menu
+    transform: translateX(0px);
+    z-index: 10;
+    overflow-y: visible;
+
+
+  .header__icon:checked ~ .header__icon__label
+    transform: translateX(-250px)

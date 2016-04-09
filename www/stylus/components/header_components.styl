@@ -12,9 +12,13 @@
     font-size: 2rem
     font-weight: bold
     line-height 5.1rem
+    border-right 1px solid color-header-bluedark - 40%
     &:hover
+    &:focus
       background-color color-header-bluefocus
       transition trans
+    &:nth-child(6)
+      border-right none
 
 
 
@@ -28,10 +32,11 @@
     width: menu-res-width
     transform translateX(menu-res-width)
     &__item
-      border-bottom 2px solid color-header-bluedark - 30%
+      border-bottom 2px solid color-header-bluedark - 40%
 
   .with--sidebar
     .site-pusher
       transform translateX(-250px)
     .site-cache
+      transition .3s linear
       background-color rgba(0,0,0,.6)
