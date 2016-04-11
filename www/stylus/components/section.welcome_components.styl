@@ -1,0 +1,26 @@
+.welcome
+  background-color color-welcome-bckg
+  color color-text-white
+  text-align center
+  padding 0 1.5rem
+  background-image url(../img/portrait_vector_home.svg)
+  background-repeat no-repeat
+  background-position bottom center
+  background-size 95%
+  &__hello
+    font-weight bold
+    letter-spacing .08rem
+    font-size 2rem
+  &__description
+    font-size: 1.8rem
+    line-height 1.2
+    font-weight normal
+
+@media screen and (min-width: 491px)
+  .welcome
+    background-size 100%
+    background-position bottom center
+
+@media only screen and (min-width: 508px)
+  .welcome
+   background-size 49rem 43.7rem
