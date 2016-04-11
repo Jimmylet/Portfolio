@@ -1,0 +1,30 @@
+.contact-me
+  &__section-img
+    display none
+  &__section-link
+    position: relative
+    min-height 32rem
+    &__link
+      position: absolute
+      margin-left auto
+      margin-right auto
+      left: 0
+      right: 0
+      top 50% - 10rem
+  &__section-subtext
+    position: absolute
+    left: 0
+    right: 0
+    text-align center
+    top 50% + 10rem
+
+
+@media screen and (min-width: 741px)
+  .contact-me
+    &__section-img
+      display block
+      width 50%
+      &__img
+        min-height: 59.2rem
+        width: auto
+
