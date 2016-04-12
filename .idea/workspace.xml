@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="229fd765-ef02-48e6-9bdd-a9f4a5c05cdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/styles.css" afterPath="$PROJECT_DIR$/www/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/contact-me_img.svg" afterPath="$PROJECT_DIR$/www/img/contact-me_img.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/portrait_vector_home.svg" afterPath="$PROJECT_DIR$/www/img/portrait_vector_home.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/base/base.styl" afterPath="$PROJECT_DIR$/www/stylus/base/base.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/components/section.contact-me_components.styl" afterPath="$PROJECT_DIR$/www/stylus/components/section.contact-me_components.styl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl" afterPath="$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/objects/section.contact-me_objects.styl" afterPath="$PROJECT_DIR$/www/stylus/objects/section.contact-me_objects.styl" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +49,8 @@
       <file leaf-file-name="section.welcome_components.styl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26291078">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.6619718">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -777,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26291078">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.6619718">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
