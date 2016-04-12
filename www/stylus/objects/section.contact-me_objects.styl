@@ -1,5 +1,5 @@
 .contact-me
-  &__section-img
+  &__img
     display none
   &__section-link
     position: relative
@@ -19,12 +19,34 @@
     top 50% + 10rem
 
 
-@media screen and (min-width: 741px)
+
+@media screen and (min-width: 700px)
   .contact-me
-    &__section-img
+    position: relative
+    height: 100%
+    &:after
+      content: "";
+      display: block;
+      clear: both;
+    &__img
+      display inline-block
+      vertical-align bottom
+      min-width: 50%
+      max-width 50%
+      height: auto
+    &__section-link
+      overflow: hidden
+      display inline-block
+      min-width 50%
+      max-width 50%
+      position: absolute
+      height: 100%
+      text-align: center
+      &__link
+        position: static
+        margin-top 35%
+    &__section-subtext
+      position: static
       display block
-      width 50%
-      &__img
-        min-height: 59.2rem
-        width: auto
+      margin-top 1rem
 
