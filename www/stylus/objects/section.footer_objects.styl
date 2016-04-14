@@ -1,6 +1,5 @@
 .footer
   &__follow-me
-    padding 0 1.5rem
     min-height 18.8rem
     &__container
       display flex
@@ -8,7 +7,7 @@
       flex-direction column
       width 20rem
       margin 0 auto
-      padding-bottom 5rem
+      padding 0 1.5 5rem 1.5rem
 
 .icons
   margin 0 auto 2rem auto
@@ -28,6 +27,18 @@
         height 0
         margin 0 auto
 
+.copyright
+  background-color color-copyright-background
+  padding .5rem
+  text-align center
+  &__text
+    color color-text-white
+    font-size: 1.4rem
+    margin-right 3rem
+  &__link:hover
+    text-decoration underline
+
+
 
 @media screen and (min-width: 544px)
   .footer__follow-me__container
@@ -37,3 +48,5 @@
 @media screen and (min-width: 604px)
   .footer__follow-me__container
     width 560px
+  .copyright__text
+    margin-right 5rem
