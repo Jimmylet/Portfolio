@@ -4,12 +4,17 @@
     margin-top 5rem
 
 .news-container
-  padding 0 3rem 5rem 3rem
+  padding 5rem 3rem 5rem 3rem
   &__browser
     height 32rem
     max-width 32rem
     position relative
+    display block
     margin 5rem auto 0 auto
+  &__browser:nth-child(1)
+    margin 0 auto
+  &__browser:nth-child(4)
+    display none
   &__topbar
     position: relative
   &__img
@@ -20,6 +25,19 @@
     display block
 
 
+@media screen and (min-width: 768px)
+  .news-container
+    &__browser
+      display inline-block
+      width 32rem
+      margin 5rem 5rem 0 0
+    &__browser:nth-child(1)
+      margin 0 5rem 0 0
+    &__browser:nth-child(2n+2)
+      margin 5rem 0 0 0
+    &__browser:nth-child(4)
+      display inline-block
+
 @media screen and (min-width: 1080px)
   .news-container
     display flex
@@ -28,3 +46,8 @@
     padding 0 1.5rem
     &__browser
       width 32rem
+      margin 5rem auto 0 auto
+    &__browser:nth-child(1)
+      margin 5rem 3rem 0 0
+    &__browser:nth-child(4)
+      display none
