@@ -1,21 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="50px" height="27px" viewBox="0 0 50 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
-    <title>visible</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Accueil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Accueil_Desktop_HD" transform="translate(-1096.000000, -3207.000000)" fill="#FFFFFF">
-            <g id="Mes-travaux-v2" transform="translate(0.000000, 2819.000000)">
-                <g id="portoflio_nav" transform="translate(117.000000, 238.000000)">
-                    <g id="Group-2-Copy-2" transform="translate(823.626061, 0.000000)">
-                        <g id="visible" transform="translate(155.373939, 150.000000)">
-                            <ellipse id="Oval" cx="24.9500428" cy="13.3062072" rx="5.08702911" ry="5.08702911"></ellipse>
-                            <path d="M0,13.2033105 C0,13.2033105 22.4133134,43.3798944 49.9069777,13.2033105 C22.4133134,-16.5041381 0,13.2033105 0,13.2033105 L0,13.2033105 Z M25.7256421,23.2287814 C25.388399,23.2688499 25.0461473,23.2955622 24.698887,23.2955622 C23.4116866,23.2955622 22.1862586,23.0050656 21.0743579,22.4891838 C17.4782106,20.9749287 14.952226,17.4171804 14.952226,13.2700913 C14.952226,7.74564783 19.4282106,3.26966324 24.9509846,3.26966324 C30.4737586,3.26966324 34.9514127,7.74731735 34.9514127,13.2700913 C34.9530822,18.5307506 30.8877997,22.833105 25.7256421,23.2287814 L25.7256421,23.2287814 Z" id="Shape"></path>
-                        </g>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg width="50" height="27" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#FFF" fill-rule="evenodd">
+    <ellipse cx="24.95" cy="13.3062" rx="5.087" ry="5.087"/>
+    <path d="M0 13.2033s22.4133 30.1766 49.907 0c-27.4937-29.7074-49.907 0-49.907 0zm25.7256 10.0255c-.3372.04-.6795.0668-1.0267.0668-1.2873 0-2.5127-.2905-3.6246-.8064-3.5962-1.5143-6.1222-5.072-6.1222-9.219 0-5.5246 4.476-10.0005 9.9988-10.0005 5.5228 0 10.0004 4.4776 10.0004 10.0004.0017 5.2608-4.0636 9.563-9.2258 9.9588z"/>
+  </g>
 </svg>

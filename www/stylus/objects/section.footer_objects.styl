@@ -1,0 +1,39 @@
+.footer
+  &__follow-me
+    padding 0 1.5rem
+    min-height 18.8rem
+    &__container
+      display flex
+      justify-content center
+      flex-direction column
+      width 20rem
+      margin 0 auto
+      padding-bottom 5rem
+
+.icons
+  margin 0 auto 2rem auto
+  &__container
+      width 10rem
+      height: 10rem
+      position: relative
+      display table-cell
+      vertical-align: middle;
+      &__icon
+        position: absolute
+        top: 50%
+        transform translateY(-50%)
+        margin-left 2.3rem
+      &__hover
+        width 0
+        height 0
+        margin 0 auto
+
+
+@media screen and (min-width: 544px)
+  .footer__follow-me__container
+    flex-direction row
+    width 500px
+
+@media screen and (min-width: 604px)
+  .footer__follow-me__container
+    width 560px

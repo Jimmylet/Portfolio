@@ -1,0 +1,31 @@
+.footer__follow-me
+  background-color color-footer-background
+  &__title
+    font-size: 3.6rem
+    text-align center
+    color color-text-white
+    padding 5rem 0 4rem 0
+
+.icons
+  &__link
+    font-size: 0
+  &__container
+    background-color color-footer-social
+    border-radius 1rem
+    &__hover
+      border-radius 1rem
+      transition trans
+      &-fb
+        background-color color-footer-facebook
+      &-github
+        background-color color-footer-github
+      &-behance
+        background-color color-footer-behance
+      &-twitter
+        background-color color-footer-twitter
+
+.icons__container:hover .icons__container__hover
+.icons__container:focus .icons__container__hover
+  width 100%
+  height 100%
+  transition .3s ease-out
