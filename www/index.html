@@ -54,9 +54,9 @@
 							</a>
 						</section>
 						<section class="portfolio-news">
-							<!--<a href="./html/portfolio.html" class="portfolio-news__button">
+							<a href="./html/portfolio.html" class="portfolio-news__button">
 								<h2>Mon portfolio</h2>
-							</a>-->
+							</a>
 							<div class="news-container">
 								<div class="news-container__browser">
 									<a href="#" class="news-container__link">
@@ -195,11 +195,26 @@
 						</footer>
 					</div>
 				</div>
-				<div class="site-cache" id="site-cache">
-				</div>
+				<div class="site-cache" id="site-cache"></div>
 			</div>
 		</div>
-		<script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 		<script type="text/javascript" src="scripts/menu-res.js"></script>
+		<script type="text/javascript" src="scripts/scrollreveal.min.js"></script>
+		<script type="text/javascript">
+			// Changing the defaults
+			window.sr = ScrollReveal({ reset: false });
+			// Customizing a reveal set
+			sr.reveal('.contact-me__section-link__link', { origin: 'right', duration: 500, delay: 200, opacity: 0, distance: '250px',
+				easing: 'ease-in-out', viewFactor: 0.7,});
+			sr.reveal('.contact-me__section-subtext', { origin: 'left', duration: 500, delay: 400, opacity: 0, distance: '250px',
+				easing: 'ease-in-out', viewFactor: 0.7,});
+			sr.reveal('.portfolio-news__button', { origin: 'left', duration: 500, opacity: 0, distance: '250px',
+				easing: 'ease-in-out'});
+			sr.reveal('.news-container__browser', { origin: 'top', duration: 800, opacity: 0, distance: '100px', viewFactor: 0.5, scale: 1}, 200);
+			sr.reveal('.icons', { origin: 'left', duration: 800, delay: 300, opacity: 0, distance: '30px', viewFactor: 0.1, scale:0.2}, 200);
+			sr.reveal('.more__text', { origin: 'top', duration: 900, delay: 100, opacity: 0, distance: '100px', scale:1});
+			sr.reveal('.more__button', { origin: 'bottom', duration: 900, delay: 600, opacity: 0, distance: '0px', scale:0, viewFactor: 0.6});
+		</script>
 	</body>
 </html>
