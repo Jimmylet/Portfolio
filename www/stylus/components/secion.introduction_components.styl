@@ -1,0 +1,57 @@
+.introduction
+  padding 0 2em
+  text-align center
+  background-image url("../img/svg/pattern_rect.svg")
+  background-repeat repeat-x
+  background-position center 770px
+  background-color color-introduction
+  z-index 10
+  &__text
+    color white;
+    font-size: 3.33em
+  &__button
+    position: relative
+    color white
+    display inline-block
+    font-size 3.33em
+    font-weight: bold
+    padding 0.450em 2.402em
+    background-color color-button-introduction
+    border-radius 10em
+    &:before
+      content ""
+      background url(../img/svg/smiley.svg) no-repeat
+      height 49px
+      width 49px
+      display inline-block
+      position: absolute
+      right: 8px
+      top 6px
+      opacity 0
+      transition .3s ease-in
+    &:hover:before
+      transition .3s ease-in
+      opacity 1
+
+
+
+/************************************\
+  ANIMATION COMPUTER
+\************************************/
+
+.introduction__pencil
+  transform rotate(-8deg)
+
+
+.anim-computer
+  .computer__text2
+    transform: translateX(130px)
+    transition .5s ease
+  .computer__text1
+    transform: translateX(-170px)
+    transition .5s ease
+
+.anim-pencil
+  .introduction__pencil
+    transform rotate(0deg)
+    transition .5s ease
