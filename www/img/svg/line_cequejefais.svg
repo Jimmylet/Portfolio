@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="441px" height="14px" viewBox="0 0 441 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>line_cequejefais</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Accueil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accueil_Desktop_HD-Copy" transform="translate(-499.000000, -2277.000000)" fill="#FFFFFF">
+            <g id="line_cequejefais" transform="translate(498.737495, 2277.240238)">
+                <g id="Line">
+                    <g id="line" transform="translate(0.000000, 5.000000)">
+                        <path d="M436.3761,0.0229921026 L4.16321888,0.0229921026 L3.18536418,0.0229921026 C3.18536418,0.0229921026 0.807080831,0.0229921026 0.807080831,1.81379885 C0.807080831,3.6046056 3.18536418,3.6046056 3.18536418,3.6046056 L4.16321888,3.6046056 L436.3761,3.6046056 L437.353954,3.6046056 L437.353954,0.0229921026 L436.3761,0.0229921026 L436.3761,0.0229921026 Z" id="Combined-Shape"></path>
+                        <path d="M440.085878,1.17239551e-13 L9.34471018,6.43929354e-14 L8.37018514,6.43929354e-14 C8.37018514,6.43929354e-14 6,6.39488462e-14 6,1.79080675 C6,3.5816135 8.37018514,3.5816135 8.37018514,3.5816135 L9.34471018,3.5816135 L440.085878,3.5816135 L441.060403,3.5816135 L441.060403,1.17239551e-13 L440.085878,1.17239551e-13 L440.085878,1.17239551e-13 Z" id="Combined-Shape-Copy" transform="translate(223.530201, 1.790807) rotate(-180.000000) translate(-223.530201, -1.790807) "></path>
+                    </g>
+                    <g id="circle" transform="translate(201.000000, 0.000000)">
+                        <circle id="Oval-55" cx="20.5" cy="6.5" r="6.5"></circle>
+                        <circle id="Oval-55-Copy" cx="36.3309847" cy="6.5" r="4.5"></circle>
+                        <circle id="Oval-55-Copy-2" cx="4.5" cy="6.5" r="4.5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

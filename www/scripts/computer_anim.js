@@ -7,12 +7,13 @@ $(window).scroll(function() {
 
     //>=, not <=
     if (scroll >= 350) {
-        //clearHeader, not clearheader - caps H
         $(".introduction").addClass("anim-computer");
     }
 
-    if (scroll >= 600) {
-        //clearHeader, not clearheader - caps H
+    if (scroll >= 550) {
         $(".introduction").addClass("anim-pencil");
+    }
+    if (scroll >= 1400) {
+        $(".whati").addClass("anim-line");
     }
 });

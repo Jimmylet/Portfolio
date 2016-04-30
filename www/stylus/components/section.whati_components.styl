@@ -3,3 +3,100 @@
   background-repeat repeat-x
   background-position center top
   background-color color-portolio-blue
+
+/************************************\
+  CARDS TOP
+\************************************/
+
+.whati
+  &__card
+    position: relative
+    background-color #FFF
+    max-width 330px
+    padding 3em
+    text-align center
+    &__icon
+      margin-bottom 2em
+    &__title
+      margin-bottom 0.573em
+      color color-title-cards-top
+      font-size: 2.62em
+      text-transform uppercase
+      font-weight: bold
+    &__text
+      margin-bottom 1.456em
+      font-size: 2.06em
+      color color-text-cards-top
+      line-height .95em
+    &__button
+      font-size 1.6em
+      color white
+      background-color color-portolio-blue
+      padding 0.438em 2.375em 0.598em
+      border-radius 10em
+      display inline-block
+      &:focus
+      &:hover
+        transition trans
+        background-color color-portolio-blue - 10%
+
+.whati__blog
+  border-right 1px solid #B2B2B2
+.whati__contact
+  border-right 1px solid #B2B2B2
+
+.whati
+  &__social
+    &__button
+      padding 0
+      height 33px
+      width 184px
+      &__icon
+        &:before
+          display inline-block
+          color inherit
+          font-family: icon_font
+          font-size: 1.5em
+          position relative
+          top 4px
+        &:hover:before
+        &:focus:before
+          color #FFF - 8%
+        &-minfb:before
+          content "\e909"
+        &-mintw:before
+          content "\e908"
+        &-mingit:before
+          content "\e907"
+        &-minlink:before
+          content "\e906"
+        &-minbe:before
+          content "\e905"
+
+/************************************\
+  TITLE
+\************************************/
+
+.whati__title
+  font-size: 5em
+  color #FFF
+  position: relative
+  top 6em
+  text-transform uppercase
+  &:after
+    content ""
+    display block
+    margin 10px auto 0
+    text-align left
+    height 14px
+    width 0px
+    background url("../img/svg/line_cequejefais.svg") no-repeat center
+
+/************************************\
+  ANIM LINE TITLE
+\************************************/
+
+.anim-line
+  .whati__title:after
+    width 441px
+    transition .5s
