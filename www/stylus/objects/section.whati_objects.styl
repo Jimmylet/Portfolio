@@ -1,5 +1,9 @@
 .whati
-  height 150em
+  height 90em
+
+@media screen and (max-width: 817px)
+  .whati
+    height 150em
 
 /************************************\
   CARDS TOP
@@ -12,3 +16,34 @@
   display inline-flex
   position: relative
   top -213px
+
+/************************************\
+ iDo
+\************************************/
+
+.ido
+  display flex
+  flex-direction row
+  max-width 99em
+  margin 18em auto 0
+  justify-content: space-between
+  &__card
+    max-width 26.9em
+    position: relative
+    & svg
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      top -77px
+
+@media screen and (max-width: 736px)
+  .whati
+    height 230em
+  .ido
+    flex-direction column
+    max-width 27.4em
+    &__card
+      margin-bottom 14em
+      margin-right 0

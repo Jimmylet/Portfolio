@@ -33,8 +33,6 @@
       transition .3s ease-in
       opacity 1
 
-
-
 /************************************\
   ANIMATION COMPUTER
 \************************************/
@@ -55,3 +53,25 @@
   .introduction__pencil
     transform rotate(0deg)
     transition .5s ease
+
+
+@media screen and (max-width: 510px)
+  .introduction
+    & svg
+      width 18em
+    &__text
+      font-size: 2.33em
+    &__button
+      font-size: 2.3em
+      &:before
+        width 30px
+        height: 30px
+        background url(../img/svg/smiley-min  .svg) no-repeat
+    & img
+      width 150px
+      height auto
+  .anim-computer
+    .computer__text2
+    .computer__text1
+      transform none
+

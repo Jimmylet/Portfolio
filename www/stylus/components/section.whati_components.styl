@@ -1,3 +1,4 @@
+
 .whati
   background-image url("../img/svg/pattern_rect_2.svg")
   background-repeat repeat-x
@@ -73,12 +74,16 @@
         &-minbe:before
           content "\e905"
 
+
+
+
+
 /************************************\
   TITLE
 \************************************/
 
 .whati__title
-  font-size: 5em
+  font-size: 5rem
   color #FFF
   position: relative
   top 6em
@@ -87,7 +92,6 @@
     content ""
     display block
     margin 10px auto 0
-    text-align left
     height 14px
     width 0px
     background url("../img/svg/line_cequejefais.svg") no-repeat center
@@ -100,3 +104,64 @@
   .whati__title:after
     width 441px
     transition .5s
+
+
+@media screen and (max-width: 817px)
+  .whati__cards-container
+    display flex
+    flex-direction column
+  .whati__card
+    border none
+  .whati
+    height 150em
+  .whati__title
+    top 17em
+
+
+/************************************\
+ iDo
+\************************************/
+
+.ido
+  &__card
+    background-color #FFF
+    padding 8.5em 2.5em 3.5em
+    margin-right 2em
+    &:last-child
+      margin-right 0
+    &__title
+      font-size: 3.33em
+      color #1D1D1D
+      text-transform uppercase
+    &__text
+      font-size: 2.06em
+      color #464646
+      margin-top: 0.971em
+      text-align left
+
+/************************************\
+  ANIM
+\************************************/
+
+// CIRCLE LINE
+.ido-stroke
+  stroke-dasharray: 0
+  stroke-dashoffset: 0
+  visibility hidden
+.ido-anim
+  .ido-stroke
+    stroke-dasharray: 1000
+    stroke-dashoffset: 1000
+    visibility visible
+  .ido-stroke1
+    animation: dash 3s linear forwards
+  .ido-stroke2
+    animation: dash 3s linear .4s forwards
+  .ido-stroke3
+    animation: dash 3s linear .8s forwards
+
+@keyframes dash
+  to {
+    stroke-dashoffset: 0
+}
+

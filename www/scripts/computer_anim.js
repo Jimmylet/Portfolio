@@ -16,4 +16,8 @@ $(window).scroll(function() {
     if (scroll >= 1400) {
         $(".whati").addClass("anim-line");
     }
+
+    if (scroll >= 1480) {
+        $(".ido__card").addClass("ido-anim");
+    }
 });
