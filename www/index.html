@@ -33,8 +33,14 @@
 						<main>
 							<section class="welcome">
 								<h2 class="welcome__title" aria-level="2">Bienvenue sur mon site web !</h2>
-								<span class="welcome__hello">Hello&nbsp;!</span>
-								<span class="welcome__description">Je suis Jimmy Letecheur, un développeur web belge.</span>
+								<div id="hellowrap">
+									<p class="welcome__hello">Hello <b>!</b></p>
+								</div>
+								<div id="descwrap">
+									<p class="welcome__description">Je suis Jimmy Letecheur, un développeur web belge :-)</p>
+								</div>
+								<span class="welcome__hello" id="helloreplace"></span>
+								<span class="welcome__description" id="descreplace"></span>
 							</section>
 							<section class="introduction">
 								<h2 aria-level="2" class="introduction__title">À propos de moi</h2>
@@ -358,9 +364,29 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="scripts/typed.js"></script>
 		<script type="text/javascript" src="scripts/menu-res.js"></script>
 		<script type="text/javascript" src="scripts/computer_anim.js"></script>
 		<script type="text/javascript" src="scripts/scrollreveal.min.js"></script>
+		<script>
+			$(function(){
+				$("#helloreplace").typed({
+					stringsElement: $('#hellowrap'),
+					typeSpeed: 80,
+					showCursor: false
+				});
+			});
+		</script>
+		<script>
+			$(function(){
+				$("#descreplace").typed({
+					stringsElement: $('#descwrap'),
+					typeSpeed: 30,
+					startDelay: 1300,
+					showCursor: false
+				});
+			});
+		</script>
 		<script type="text/javascript">
 			// Changing the defaults
 			window.sr = ScrollReveal({reset: false});
