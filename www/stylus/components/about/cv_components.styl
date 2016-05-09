@@ -1,0 +1,137 @@
+.about-cv
+  padding 9em 3em
+  background-color #95A5A6
+  &__title
+    margin-bottom: 5rem
+    font-size: 3.33rem
+    color: #F8F8F8
+    letter-spacing: 0.99px;
+    text-align center
+  &__wrap
+    padding 5rem 0 5rem
+    position: relative
+  &__wrap:before
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 8px;
+    background: #FFF;
+    border-radius 10px
+    margin-left: auto
+    margin-right: auto
+    left: 0
+    right: 0
+  &__timeline
+    &-block
+      position: relative
+      margin 0 auto 9rem auto
+      max-width 76rem
+    &-block:last-child
+      margin 0 auto 0 auto
+    &-content
+      background-color #FFF
+      max-width 33rem
+      padding 1.2rem 2.8rem
+      border-radius 9px
+      box-shadow: 0px 1px 1px 0px rgba(121,121,121,0.50);
+    &-title
+      font-weight: bold
+      font-size: 1.825rem
+      color: #525252
+      letter-spacing: 0.55px
+      text-transform: uppercase
+    &-location
+      font-size: 1.435rem
+      font-size: 14px;
+      color: #525252;
+      letter-spacing: 0.38px;
+      display block
+      margin-bottom: 1rem
+    &-description
+      font-size: 1.372em
+      color: #6F6F6F
+      letter-spacing: 0.33px
+    &-year
+      font-size: 1.62rem
+      color: rgba(255,255,255,0.80)
+      letter-spacing: 0.44px
+    &-circle
+      background #FFF
+      width 22px
+      height 22px
+      border-radius 50%
+      position: absolute
+      margin-left: auto
+      margin-right: auto
+      left: 0
+      right: 0
+
+
+
+/************************************\
+  ANIMATION
+\************************************/
+
+.is-hidden
+  display none
+
+.bounce-in
+  visibility visible
+  animation: bounce-2 0.6s;
+
+.bounce-reverse
+  visibility visible
+  animation: bounce-2-inverse 0.6s;
+
+.circlescale
+  visibility visible
+  animation bounce-1 0.6s
+
+@keyframes bounce-1 {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px)
+  }
+  60% {
+    opacity: 1
+    transform: translateX(20px)
+  }
+
+  100% {
+    transform: translateX(0)
+  }
+}
+
+
+@keyframes bounce-2-inverse {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}

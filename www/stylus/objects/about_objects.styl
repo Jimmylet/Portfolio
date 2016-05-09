@@ -1,0 +1,22 @@
+.about-intro__title-section
+  position: absolute
+  top 9999px
+  left: -9999px
+
+.about-cv
+  min-height 100rem
+  &__timeline
+    &-year
+      position: absolute
+      top: 0
+      left 56.6%
+    &-block:after
+      content "";
+      display block
+      clear both
+
+.about-cv__timeline-block:nth-child(even) .about-cv__timeline-content
+  float right
+
+.about-cv__timeline-block:nth-child(even) .about-cv__timeline-year
+  left 32.1%
