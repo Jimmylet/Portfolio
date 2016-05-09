@@ -4,7 +4,6 @@
   left: -9999px
 
 .about-cv
-  min-height 100rem
   &__timeline
     &-year
       position: absolute
@@ -20,3 +19,16 @@
 
 .about-cv__timeline-block:nth-child(even) .about-cv__timeline-year
   left 32.1%
+
+  /************************************\
+   SKILLS SECTION
+  \************************************/
+
+.skills
+  &__wrap
+    max-width 85rem
+    margin: 0 auto
+  &__content:before
+    display block
+    content ""
+    clear both

@@ -55,8 +55,10 @@ module.exports = function( grunt ) {
         // stylus
         "stylus": {
             "options": {
+                "compress": false,
                 use: [
-                function() { return require('autoprefixer-stylus')('last 7 versions', 'ie 8'); }
+                function() { return require('autoprefixer-stylus')('last 7 versions', 'ie 8'); },
+                require("kouto-swiss")
                 ],
                 "sourceMap": true
             },

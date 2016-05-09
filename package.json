@@ -18,6 +18,7 @@
     "grunt-cowsay": "^0.1.1",
     "grunt-eslint": "^17.3.2",
     "grunt-imageoptim": "^1.4.1",
-    "grunt-sass": "^1.1.0"
+    "grunt-sass": "^1.1.0",
+    "kouto-swiss": "^0.12.0"
   }
 }
