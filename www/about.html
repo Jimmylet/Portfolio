@@ -22,7 +22,7 @@
 					<nav class="menu">
 						<h2 class="menu__title" aria-level="2">Menu de navigation</h2>
 						<a href="index.html" class="menu__item">Accueil</a>
-						<a href="#" class="menu__item">Portfolio</a>
+						<a href="portfolio.html" class="menu__item">Portfolio</a>
 						<a href="#" class="menu__item">Blog</a>
 						<a href="about.html" class="menu__item">À propos</a>
 						<a href="#" class="menu__item">Contactez-moi</a>
@@ -48,7 +48,7 @@
 								<div class="about-cv__wrap">
 									<div class="about-cv__timeline-block">
 										<div class="about-cv__timeline-circle circle-3"></div>
-										<article class="about-cv__timeline-content content-3">
+										<article class="about-cv__timeline-content">
 											<h3 aria-level="3" class="about-cv__timeline-title">
 												Études en infographie web
 											</h3>
@@ -66,8 +66,8 @@
 
 
 									<div class="about-cv__timeline-block">
-										<div class="about-cv__timeline-circle circle-2"></div>
-										<article class="about-cv__timeline-content content-2">
+										<div class="about-cv__timeline-circle circle-2 about-cv__timeline-content--odd"></div>
+										<article class="about-cv__timeline-content">
 											<h3 aria-level="3" class="about-cv__timeline-title">
 												Un peu perdu…
 											</h3>
@@ -84,7 +84,7 @@
 
 									<div class="about-cv__timeline-block">
 										<div class="about-cv__timeline-circle circle-1"></div>
-										<article class="about-cv__timeline-content content-1">
+										<article class="about-cv__timeline-content">
 											<h3 aria-level="3" class="about-cv__timeline-title">
 												Fin des études secondaires
 											</h3>
@@ -109,7 +109,7 @@
 									<article class="skills__article">
 										<h3 aria-level="3" class="skills__title" title="HyperText Markup Language"><abbr>html</abbr></h3>
 										<div class="skills__progress">
-											<div class="skills__progress-bar" role="progressbar" aria-valuenow="95" aria-valuemax="100"></div>
+											<div class="skills__progress-bar skills__progress-bar--html" role="progressbar" aria-valuenow="95" aria-valuemax="100"></div>
 										</div>
 										<div class="skills__content">
 											<div class="skills__figure skills__figure--html"></div>
@@ -123,7 +123,7 @@
 													<span class="skills__level__cotation"><img src="./img/svg/heart4.svg" alt="4 sur 5"></span>
 												</div>
 											</div>
-											<p class="skills__description">
+											<p class="skills__description" title="95%">
 												J’utilise le langage HTML quotidiennement.
 												Je le maîtrise parfaitement, en respectant les contraintes du <b>W3C</b>,
 												du <b>WAI-ARIA</b> et d’<b>Anysurfer</b>. Je suis très attentif à l’accessibilité,
@@ -135,8 +135,8 @@
 
 									<article class="skills__article">
 										<h3 aria-level="3" class="skills__title" title="Cascading Style Sheets"><abbr>css</abbr></h3>
-										<div class="skills__progress">
-											<div class="skills__progress-bar" role="progressbar" aria-valuenow="95" aria-valuemax="100"></div>
+										<div class="skills__progress" title="95%">
+											<div class="skills__progress-bar skills__progress-bar--css" role="progressbar" aria-valuenow="95" aria-valuemax="100"></div>
 										</div>
 										<div class="skills__content">
 											<div class="skills__figure skills__figure--css"></div>
@@ -162,7 +162,7 @@
 
 									<article class="skills__article">
 										<h3 aria-level="3" class="skills__title">Javascript</h3>
-										<div class="skills__progress">
+										<div class="skills__progress" title="70%">
 											<div class="skills__progress-bar skills__progress-bar--js" role="progressbar" aria-valuenow="70" aria-valuemax="100"></div>
 										</div>
 										<div class="skills__content">
@@ -178,8 +178,8 @@
 												</div>
 											</div>
 											<p class="skills__description">
-												J’adore le Javascript. Je l’utilise régulièrement pour rendre mes projets plus 
-												dynamique ou pour améliorer l’éxpérience utilisateur. J’utilise aussi la technologie 
+												J’adore le Javascript. Je l’utilise régulièrement pour rendre mes projets plus
+												dynamique ou pour améliorer l’éxpérience utilisateur. J’utilise aussi la technologie
 												<b>CANVAS</b> et je m’interesse de près à <b>Node.js</b>. Je sais aussi utiliser la
 												librairie <b>Jquery</b>.
 											</p>
@@ -189,7 +189,7 @@
 
 									<article class="skills__article">
 										<h3 aria-level="3" class="skills__title" title="Hypertext Preprocessor"><abbr>php</abbr></h3>
-										<div class="skills__progress">
+										<div class="skills__progress" title="50%">
 											<div class="skills__progress-bar skills__progress-bar--php" role="progressbar" aria-valuenow="70" aria-valuemax="100"></div>
 										</div>
 										<div class="skills__content">
@@ -205,17 +205,70 @@
 												</div>
 											</div>
 											<p class="skills__description">
-												J’adore le Javascript. Je l’utilise régulièrement pour rendre mes projets plus
-												dynamique ou pour améliorer l’éxpérience utilisateur. J’utilise aussi la technologie
-												<b>CANVAS</b> et je m’interesse de près à <b>Node.js</b>. Je sais aussi utiliser la
-												librairie <b>Jquery</b>.
+												Je découvre actuellement le PHP. Mon niveau est variable.
+												J’ai les compétences afin de créer une <b>interface d’administration</b>,
+												ou pour gérer les scores d’un jeu.
+												J’ai une bonne compréhension de l’<b>architecture MVC</b>.
 											</p>
 
 										</div>
 									</article>
+								</div>
+								<div class="cms">
+									<div class="cms__content">
+										<span class="cms__title">Wordpress</span>
+										<img class="cms__img" src="./img/svg/wordress_logo.svg" alt="Logo de Wordpress" width="100" height="100">
+										<img class="cms__cote" src="./img/svg/app_4sur5.svg" title="4/5" alt="4 sur 5" width="86" height="15">
+									</div>
+									<div class="cms__content">
+										<span class="cms__title">Prestashop</span>
+										<img class="cms__img" src="./img/svg/prestashop_logo.svg" alt="Logo de Prestashop" width="100" height="100">
+										<img class="cms__cote" src="./img/svg/app_3sur5.svg" title="3/5" alt="3 sur 5" width="86" height="15">
+									</div>
+									<div class="cms__content">
+										<span class="cms__title">Spip</span>
+										<img class="cms__img" src="./img/svg/spip_logo.svg" alt="Logo de Spip" width="100" height="100">
+										<img class="cms__cote" src="./img/svg/app_3sur5.svg" title="3/5" alt="3 sur 5" width="86" height="15">
+									</div>
+								</div>
+							</section>
+							<section class="apps">
+								<h2 class="apps__title-section" aria-level="2">Les applications que j'utilise&nbsp;:</h2>
+								<div class="apps__wrap">
+									<div class="apps__app">
+										<img class="apps__app__img" src="./img/svg/photoshop_logo.svg" width="80" height="80" alt="Logo de Adobe Photoshop">
+										<span class="apps__app__title">Photoshop</span>
+										<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
+									</div>
+
+									<div class="apps__app">
+										<img class="apps__app__img" src="./img/svg/illustrator_logo.svg" width="80" height="80" alt="Logo de Adobe Illustrator">
+										<span class="apps__app__title">Illustrator</span>
+										<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
+									</div>
+
+									<div class="apps__app">
+										<img class="apps__app__img" src="./img/svg/animate_logo.svg" width="80" height="80" alt="Logo de Adobe Animate CC">
+										<span class="apps__app__title">Animate CC</span>
+										<img src="./img/svg/app_3sur5.svg" alt="3 sur 5" title="3/5" class="apps__app__cote">
+									</div>
+
+									<div class="apps__app">
+										<div class="apps__app__img apps__app__img--sketch apps__app__img--png" width="80" height="80" title="Logo de Sketch App"></div>
+										<span class="apps__app__title">Sketch</span>
+										<img src="./img/svg/app_5sur5.svg" alt="5 sur 5" title="5/5" class="apps__app__cote">
+									</div>
+
+									<div class="apps__app">
+										<div class="apps__app__img apps__app__img--phpstorm apps__app__img--png" width="80" height="80" title="Logo de PHPstorm"></div>
+										<span class="apps__app__title">PhpStorm</span>
+										<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
+									</div>
+
 
 
 								</div>
+
 							</section>
 
 						<footer class="footer">
@@ -310,8 +363,57 @@
 		</div>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 		<script type="text/javascript" src="scripts/menu-res.js"></script>
-		<script type="text/javascript" src="scripts/about_anim.js"></script>
-		<!--<script type="text/javascript" src="scripts/about_anim2.js"></script>-->
+		<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// Fait par moi, mettre visibility hidden à tous les blocks
+				$(".about-cv__timeline-block, .skills__content").css("visibility","hidden");
+				$(".skills__progress").addClass("progress-js--active");
 
+				$('.about-cv__timeline-content, .about-cv__timeline-year').viewportChecker({
+					classToAdd: 'bounce-in',
+					offset: 150,
+					repeat: false,
+					callbackFunction: function(elem, action){}
+				});
+
+				$('.about-cv__timeline-circle').viewportChecker({
+					classToAdd: 'circlescale',
+					offset: 150,
+					repeat: false,
+					callbackFunction: function(elem, action){}
+				});
+				/*$('.about-cv__timeline-content--odd').viewportChecker({
+					classToAdd: 'bounce-reverse',
+					offset: 150,
+					repeat: false,
+					callbackFunction: function(elem, action){}
+				});*/
+				$('.skills__content').viewportChecker({
+					classToAdd: 'animated flipInX',
+					offset: 150,
+					repeat: false,
+					callbackFunction: function(elem, action){}
+				});
+				$('.skills__progress-bar--html, .skills__progress-bar--css').viewportChecker({
+					classToAdd: 'htmlanim',
+					offset: 100,
+					repeat: false,
+					callbackFunction: function(elem, action){}
+				});
+				$('.skills__progress-bar--js').viewportChecker({
+					classToAdd: 'jsanim',
+					offset: 100,
+					repeat: false,
+					callbackFunction: function(elem, action){}
+				});
+				$('.skills__progress-bar--php').viewportChecker({
+					classToAdd: 'phpanim',
+					offset: 100,
+					repeat: false,
+					callbackFunction: function(elem, action){}
+				});
+			});
+		</script>
 	</body>
 </html>

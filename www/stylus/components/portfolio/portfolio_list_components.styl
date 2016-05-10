@@ -1,0 +1,131 @@
+.portfolio-intro
+  background #EEEEEE
+  padding 0 3em
+  text-align center
+  &__title
+    display: inline-block
+    margin 15rem 0 0
+    font-size: 3.329rem
+    color: #525252
+    letter-spacing: 0.91px
+    text-transform: uppercase
+    &:after
+      display block
+      font-size: 2rem
+      margin 2rem 0 3rem
+      content "----------"
+  &__text
+    font-size: 2rem
+    color: #666666
+    letter-spacing: 0.55px
+    line-height: 2.3rem
+    max-width 55rem
+    margin: 0 auto
+    padding-bottom 15rem
+
+.portfolio-list
+  padding 10rem 3rem
+  &__workcol
+    position: relative
+    width: 100%
+  &__item
+    padding 1rem
+  &__link
+    transition: all 0.2s ease-in-out
+  &__overlay
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    display: none
+    cursor: pointer
+    text-align: center
+    z-index: 9
+  &__caption
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    margin-left: auto
+    margin-right: auto
+    left: 0
+    right: 0
+  &__img
+    max-width 100%
+    height auto
+  &__title
+    font-family Raleway
+    text-transform: uppercase
+    font-size 3em
+    font-weight: bold
+    color #FFF
+    display: block
+    margin-bottom 2rem
+  &__desc
+    font-size 2em
+    display: block
+    margin-bottom 1rem
+  &__techno
+    display: block
+    font-size 2em
+
+.portfolio-list__item:hover section.portfolio-list__overlay
+  display block
+.portfolio-list__item .portfolio-list__overlay:hover
+  background-color rgba(52,69,87,0.9)
+  transition: background-color 0.3s ease-in-out;
+.portfolio-list__overlay:hover .portfolio-list__caption
+  transition: opacity 0.6s ease-in-out;
+  opacity: 1
+
+
+/************************************\
+  ANIMATION SWAP
+\************************************/
+
+.js--active
+  .portfolio-intro__word
+    display none
+
+  .portfolio-intro__swap
+    width 0
+    vertical-align top
+
+  .portfolio-intro__swap > span
+    position: absolute
+    color #005B97
+
+/************************************\
+  ANIMATION FADEINUP
+\************************************/
+
+/*animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}*/
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.js--active
+  .fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }

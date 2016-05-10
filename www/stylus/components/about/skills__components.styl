@@ -22,16 +22,19 @@
     position: relative
     height 4rem
     width 100%
-    border-radius 6px
+    border-radius 20px
     background-color #DCE0E0
     overflow: hidden
     margin-bottom 4.5rem
   &__progress-bar
     position: absolute
     height 100%
-    width 95%
-    border-radius 6px
+    border-radius 20px
     background-color #6C7A89
+  &__progress-bar--html
+    width 95%
+  &__progress-bar--css
+    width 95%
   &__progress-bar--js
     width 70%
   &__progress-bar--php
@@ -79,3 +82,104 @@
     color #00AE25
   &__level__content--php
     color #D57013
+
+
+/************************************\
+    ANIMATION
+\************************************/
+
+@keyframes flipInX {
+  from {
+    visibility hidden
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    visibility visible
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    visibility visible
+  }
+}
+
+.flipInX {
+  animation-name: flipInX;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+
+/************************************\
+ ANIMATION SKILL PROGRESS BAR
+\************************************/
+
+/*.skills__progress-html
+  width 0%
+  transition width 1s ease*/
+
+.progress-js--active
+  .skills__progress-bar
+    width 0%
+
+.progress-js--active
+  .htmlanim
+    width 95%
+    transition width 1s ease-in
+  .jsanim
+    width 70%
+    transition width 1s ease-in
+  .phpanim
+    width: 50%
+    transition width 1s ease-in
+
+/************************************\
+    CMS
+\************************************/
+
+.cms
+  display flex
+  flex-direction row
+  max-width 45.3em
+  justify-content space-between
+  text-align center
+  margin: 0 auto
+  &__title
+    font-size 2.058em
+    color: #525252
+    letter-spacing: 0.55px
+    text-transform: uppercase
+    display: block
+    margin-bottom 1.5rem
+  &__img
+  &__cote
+    margin: 0 auto
+    display: block
+  &__img
+    margin-bottom: 2rem
+  &__cote
+    margin-bottom: 1rem
