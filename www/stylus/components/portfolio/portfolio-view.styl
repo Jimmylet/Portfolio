@@ -1,0 +1,118 @@
+.portfolio-view
+  position: relative
+  padding 11.5rem 3rem 0 3rem
+  /*min-height 55rem*/
+  background-color #E6E6E3
+  &__title
+    font-family raleway
+    font-size: 4.236em
+    font-weight 600
+    color: #000
+    margin-bottom: 3rem
+    letter-spacing: 1.15px
+  &__smalldesc
+    font-size: 1.825em
+    color: #171717
+    letter-spacing: 0.49px;
+    line-height: 2.3rem
+    max-width 44.5rem
+    margin-bottom 8rem
+  &__towebsite
+    display inline-block
+    background-color #0099BB
+    font-weight: bold
+    font-size: 2.058em
+    padding 1rem 5.5rem
+    color #FFF
+    border-radius 20rem
+    &:after
+      font-family: icon_font
+      content "\e900"
+      display inline-block
+      margin-left 1.4rem
+      font-size: 1.5rem
+      position: relative
+      top 2px
+  &__imac
+  &__iphone
+    display block
+    position: absolute
+    bottom: 0
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    max-width 100%
+    height auto
+  &__imac
+    right: -100px
+  &__iphone
+    right -60px
+    animation-duration 1.3s
+  &__wrapintro
+    max-width 110rem
+    position: relative
+    margin 0 auto
+    min-height 450px
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+/************************************\
+ portfolio-techniques
+\************************************/
+
+.portfolio-techniques
+  padding 8em 3rem
+  &__section-title
+    position: absolute
+    top -9999px
+    right: -9999px;
+
+.portfolio-zonetext
+  font-family ralewayfont
+  &__title
+    font-size: 3.33em
+    color: #000
+    letter-spacing: 0.99px;
+    margin-bottom 3rem
+    display block
+  &__paragraph
+    font-size: 1.618em
+    color: #5C6168
+    letter-spacing: 0.44px
+    line-height: 2.2rem
+    max-width 44.5rem
+
+/************************************\
+  PORTFOLIO DESCRIPTION
+\************************************/
+
+.portfolio-description
+  background-color #F9F9F7
+  padding 8em 3rem
+  font-family: ralewayfont
+  &__section-title
+    position: absolute
+    top -9999px
+    left -9999px
+  &__title
+    font-size: 3.33em
+    color: #000
+    letter-spacing: 0.99px;
+    margin-bottom 3rem
+    display block
+  &__paragraph
+    font-size: 1.618em
+    color: #5C6168
+    letter-spacing: 0.44px
+    line-height: 2.2rem
+    max-width 100rem
+    margin-bottom 2rem
