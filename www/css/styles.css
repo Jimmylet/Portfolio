@@ -1775,6 +1775,67 @@ a {
   max-width: 100rem;
   margin-bottom: 2rem;
 }
+.portfolio-description__paragraph:last-child {
+  margin-bottom: 10rem;
+}
+.portfolio-examples__figcaption {
+  font-family: raleway, Helvetica, Arial, sans-serif;
+  max-width: 70rem;
+  margin-top: 3rem;
+  border-left: 5px solid #babab7;
+  padding-left: 3rem;
+}
+.portfolio-examples__figcaption__title {
+  font-size: 2rem;
+  color: #000;
+  letter-spacing: 0.55px;
+  margin-bottom: 2rem;
+  display: block;
+}
+.portfolio-examples__figcaption__paragraph {
+  font-size: 1.62rem;
+  font-style: italic;
+  line-height: 1.4em;
+}
+.portfolio-examples__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.portfolio-description__ul {
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+.portfolio-description__li {
+  font-size: 1.62rem;
+  color: #53575e;
+  line-height: 1.4em;
+}
+.portfolio-description__li:before {
+  content: "–";
+  display: inline-block;
+  margin-right: 1.2rem;
+  color: #000;
+}
+.portfolio-fonts {
+  margin-top: 5rem;
+}
+.portfolio-zonetext__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.portfolio-zonetext__img {
+  margin-bottom: 0.3rem;
+}
+.portfolio-zonetext__fonts-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.portfolio-zonetext__img-v2 {
+  margin-top: 1rem;
+}
 @-webkit-keyframes slideInRight {
   from {
     -webkit-transform: translate3d(100%, 0, 0);
@@ -2325,7 +2386,12 @@ a {
   flex-direction: row;
   margin-bottom: 6rem;
 }
-.portfolio-description__wrap {
+.portfolio-description__wrap,
+.portfolio-examples {
   max-width: 110rem;
   margin: 0 auto;
+}
+.portfolio-examples__figure {
+  margin: 5rem auto;
+  max-width: 70rem;
 }
