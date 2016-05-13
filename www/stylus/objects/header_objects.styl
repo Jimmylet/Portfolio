@@ -8,6 +8,18 @@
     display none
   &__logo
     display inline-block
+    position: absolute
+    bottom: -3px
+    left 3em
+    & svg
+      position: relative
+      bottom 2.6em
+      right 1.5em
+      opacity 0
+      transition trans
+    &:hover svg
+      opacity 1
+      transition trans
   &__icon
     display none
     &__label
