@@ -230,6 +230,9 @@ a {
 .menu__item:nth-child(6) {
   border-right: none;
 }
+.active {
+  background-color: #005b97;
+}
 @media screen and (max-width: 740px) {
   .site-pusher {
     -webkit-transition: 0.3s ease-out;
@@ -1509,23 +1512,31 @@ a {
   position: relative;
   padding: 11.5rem 3rem 0 3rem;
 /*min-height 55rem*/
-  background-color: #e6e6e3;
+  background-color: #6c7a89;
 }
 .portfolio-view__title {
   font-family: raleway;
   font-size: 4.236em;
   font-weight: 600;
-  color: #000;
-  margin-bottom: 3rem;
+  color: #fff;
   letter-spacing: 1.15px;
+  margin-bottom: 0.3rem;
+}
+.portfolio-view__time {
+  display: block;
+  color: #e7e7e7;
+  margin-bottom: 3rem;
+  font-family: raleway, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
 }
 .portfolio-view__smalldesc {
   font-size: 1.825em;
-  color: #171717;
+  color: #e7e7e7;
   letter-spacing: 0.49px;
   line-height: 2.3rem;
   max-width: 44.5rem;
-  margin-bottom: 8rem;
+  margin-bottom: 3rem;
 }
 .portfolio-view__towebsite {
   display: inline-block;
@@ -1549,7 +1560,7 @@ a {
 .portfolio-view__iphone {
   display: block;
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
   -webkit-animation-duration: 1s;
@@ -1564,6 +1575,7 @@ a {
 }
 .portfolio-view__iphone {
   right: -60px;
+  bottom: -60px;
   -webkit-animation-duration: 1.3s;
   animation-duration: 1.3s;
 }
@@ -1612,7 +1624,7 @@ a {
   font-size: 3.33em;
   color: #000;
   letter-spacing: 0.99px;
-  margin-bottom: 3rem;
+  margin-bottom: 9rem;
   display: block;
 }
 .portfolio-description__paragraph {
@@ -1649,21 +1661,6 @@ a {
   display: block;
   max-width: 100%;
   height: auto;
-}
-.portfolio-description__ul {
-  margin-bottom: 2rem;
-  margin-left: 5rem;
-}
-.portfolio-description__li {
-  font-size: 1.62rem;
-  color: #53575e;
-  line-height: 1.4em;
-}
-.portfolio-description__li:before {
-  content: "–";
-  display: inline-block;
-  margin-right: 1.2rem;
-  color: #000;
 }
 .portfolio-fonts {
   margin-top: 5rem;
@@ -2169,7 +2166,7 @@ a {
   margin: 0 auto;
 }
 .portfolio-examples__figure {
-  margin: 5rem auto;
+  margin: 0rem auto 9rem auto;
   max-width: 70rem;
 }
 .work {

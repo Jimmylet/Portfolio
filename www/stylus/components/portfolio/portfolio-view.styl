@@ -2,21 +2,28 @@
   position: relative
   padding 11.5rem 3rem 0 3rem
   /*min-height 55rem*/
-  background-color #E6E6E3
+  background-color color-welcome-bckg
   &__title
     font-family raleway
     font-size: 4.236em
     font-weight 600
-    color: #000
-    margin-bottom: 3rem
+    color: #FFF
     letter-spacing: 1.15px
+    margin-bottom .3rem
+  &__time
+    display: block
+    color color-text-white
+    margin-bottom: 3rem
+    font-family ralewayfont
+    font-size: 15px
+    font-weight: 100
   &__smalldesc
     font-size: 1.825em
-    color: #171717
+    color: color-text-white
     letter-spacing: 0.49px;
     line-height: 2.3rem
     max-width 44.5rem
-    margin-bottom 8rem
+    margin-bottom 3rem
   &__towebsite
     display inline-block
     background-color #0099BB
@@ -37,7 +44,7 @@
   &__iphone
     display block
     position: absolute
-    bottom: 0
+    bottom: -30px
     animation-name: slideInRight;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -47,6 +54,7 @@
     right: -100px
   &__iphone
     right -60px
+    bottom -60px
     animation-duration 1.3s
   &__wrapintro
     max-width 110rem
@@ -107,7 +115,7 @@
     font-size: 3.33em
     color: #000
     letter-spacing: 0.99px;
-    margin-bottom 3rem
+    margin-bottom 9rem
     display block
   &__paragraph
     font-size: 1.618em
@@ -142,18 +150,6 @@
     max-width 100%
     height auto
 
-.portfolio-description__ul
-  margin-bottom 2rem
-  margin-left 5rem
-.portfolio-description__li
-  font-size: 1.62rem
-  color #5C6168 - 10%
-  line-height 1.4em
-  &:before
-    content "–"
-    display inline-block
-    margin-right 1.2rem
-    color #000
 
 .portfolio-fonts
   margin-top: 5rem

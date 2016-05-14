@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Accueil - Portfolio de Jimmy Letecheur</title>
+		<title>À propos - Portfolio de Jimmy Letecheur</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<!--[if lt IE 9]>
 		<script src="./scripts/respond.js"></script>
@@ -15,17 +15,30 @@
 		<div class="site-container">
 			<div class="site-pusher">
 				<header class="header">
-					<h1 class="header__title" aria-level="1">Portfolio de Jimmy Letecheur</h1>
+					<h1 class="header__title" aria-level="1">A propos de Jimmy Letecheur</h1>
 					<input type="checkbox" class="header__icon" id="header__icon">
 					<label for="header__icon" class="header__icon__label">Menu</label>
-					<a href="#" class="header__logo">Mon logo</a>
+					<a href="index.html" class="header__logo">
+						<span class="visuallyhidden">Retour à l'accueil</span>
+						<img src="./img/portfolio_logo.png" alt="Logo du site Jimmy Letecheur"
+						     title="Retour à l'accueil" width="50" height="45">
+						<svg width="43" height="20" viewBox="0 0 43 20" xmlns="http://www.w3.org/2000/svg">
+							<g fill="none">
+								<path d="M1 20c.5.5 9-4 10-4.5s30.5.5 31 0 .5-13.5 0-14.5-34.5-1-35.504 0c-1.004 1-5.996 18.5-5.496 19z"
+								      fill="#D8D8D8"/>
+								<text font-family="Bariol-Regular, Bariol" font-size="10" letter-spacing=".276"
+								      fill="#27384A" transform="translate(-84 -7) translate(84 7)">
+									<tspan x="8.191" y="10.88">Accueil</tspan>
+								</text>
+							</g>
+						</svg>
+					</a>
 					<nav class="menu">
 						<h2 class="menu__title" aria-level="2">Menu de navigation</h2>
-						<a href="index.html" class="menu__item">Accueil</a>
 						<a href="portfolio.html" class="menu__item">Portfolio</a>
 						<a href="#" class="menu__item">Blog</a>
-						<a href="about.html" class="menu__item">À propos</a>
-						<a href="#" class="menu__item">Contactez-moi</a>
+						<a href="about.html" class="menu__item active">À propos</a>
+						<a href="#" class="menu__item">Contact</a>
 					</nav>
 				</header>
 				<div class="site-content">
@@ -362,6 +375,7 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="scripts/retina.min.js"></script>
 		<script type="text/javascript" src="scripts/menu-res.js"></script>
 		<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
 		<script type="text/javascript">
