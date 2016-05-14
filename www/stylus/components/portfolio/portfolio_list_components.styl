@@ -1,28 +1,40 @@
 .portfolio-intro
-  background #EEEEEE
+  position: relative
+  background color-welcome-bckg
   padding 0 3em
   text-align center
   &__title
     display: inline-block
-    margin 15rem 0 0
+    font-weight: 100
+    margin 13rem 0 0
     font-size: 3.329rem
-    color: #525252
     letter-spacing: 0.91px
     text-transform: uppercase
+    color color-text-white
     &:after
       display block
       font-size: 2rem
       margin 2rem 0 3rem
       content "----------"
   &__text
-    font-size: 2rem
-    color: #666666
+    font-family ralewayfont
+    font-size: 2.06em
+    color: color-text-white
     letter-spacing: 0.55px
-    line-height: 2.3rem
-    max-width 55rem
+    line-height: 1.3em
+    max-width 66.2rem
     margin: 0 auto
     padding-bottom 15rem
+    font-weight: 100
+  &__bottomarrow
+    position: absolute
+    bottom: 3em
+    margin-left: auto
+    margin-right: auto
+    left: 0
+    right: 0
 
+/*
 .portfolio-list
   padding 10rem 3rem
   &__workcol
@@ -81,10 +93,10 @@
   opacity: 1
 
 
-/************************************\
+!************************************\
   ANIMATION SWAP
-\************************************/
-
+\************************************!
+*/
 .js--active
   .portfolio-intro__word
     display none
@@ -95,7 +107,9 @@
 
   .portfolio-intro__swap > span
     position: absolute
-    color #005B97
+    color color-text-white
+    font-weight normal
+
 
 /************************************\
   ANIMATION FADEINUP
@@ -111,7 +125,7 @@
   animation-duration: 2s;
 }*/
 
-@keyframes fadeInUp {
+/*@keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translate3d(0, 50%, 0);
@@ -128,4 +142,113 @@
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-fill-mode: both;
-  }
+  }*/
+
+
+/************************************\
+  NEWEST VERSION
+\************************************/
+
+.work-article
+  background-color color-light-blue
+  padding 15rem 3rem 0 3rem
+  &__title
+    font-family ralewayfont
+    font-size: 3.33em
+    color: color-text-white
+    letter-spacing: 0.91px
+    text-align center
+    margin-bottom: 3rem
+
+.work-article:nth-child(odd)
+  background-color color-introduction-col2
+
+.work
+  &__browser
+    min-height 44rem
+    background-color grey
+    display block
+    border-radius .6rem .6rem 0 0
+    overflow hidden
+    z-index 1
+  &__topbar
+    height 2.5rem
+    width 100%
+    background-color #DCDCDC
+    box-shadow: 0 1px 0 rgba(0,0,0,.1)
+    z-index 2
+    &__circles
+      display inline-block
+      width 1.3rem
+      height 1.3rem
+      border-radius 50%
+      border 1px solid #FFC12F - 5%
+      background-color #FFC12F
+      position: absolute
+      left: 3.8rem
+      top .60rem
+      &:after
+      &:before
+        content "";
+        display inline-block
+        width 1.3rem
+        height 1.3rem
+        border-radius 50%
+        border 1px solid color-text-white - 15%
+        background-color #F0F0F0
+        top: -.1rem
+      &:before
+        border 1px solid #FE625A - 5%
+        background-color #FE625A
+        position: absolute
+        left -2.1rem
+      &:after
+        border 1px solid #29CF42 - 5%
+        background-color #29CF42
+        position: absolute
+        right -2.1rem
+
+
+
+@media screen and (min-width: 876px)
+  .work
+    &__hovereffect
+      width: 101%
+      height: 44rem;
+      background: #25282b
+      opacity 0
+      z-index 100
+      transition .3s ease-in
+      &:before
+        content ""
+        width: 50px
+        height: 27px
+        display block
+        background url(../img/eye.svg) no-repeat
+        position: absolute
+        top: 48%
+        margin-left: auto
+        margin-right: auto
+        left: 0
+        right: 0
+    &__img
+      position absolute
+      left: 0
+      transition 3s linear
+      z-index -1
+      width 100%
+      &-baobab
+        bottom -2696px // Hauteur de l'image - hauteur de la boite (418)
+      &-caniuse // 1513 - 418
+        bottom -1095px
+      &-nicolasdestael
+        bottom -687px
+
+
+.work__browser:hover .work__hovereffect
+  opacity .6
+  transition .5s ease-in
+.work__browser:hover .work__img
+  bottom 0px
+
+

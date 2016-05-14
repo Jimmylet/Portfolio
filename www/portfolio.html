@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Accueil - Portfolio de Jimmy Letecheur</title>
+		<title>Jimmy Letecheur - Portfolio</title>
 		<link rel="stylesheet" href="css/styles.css">
 		<!--[if lt IE 9]>
 		<script src="./scripts/respond.js"></script>
@@ -15,22 +15,35 @@
 		<div class="site-container">
 			<div class="site-pusher">
 				<header class="header">
-					<h1 class="header__title" aria-level="1">Portfolio de Jimmy Letecheur</h1>
+					<h1 class="header__title" aria-level="1">Jimmy Letecheur</h1>
 					<input type="checkbox" class="header__icon" id="header__icon">
 					<label for="header__icon" class="header__icon__label">Menu</label>
-					<a href="#" class="header__logo">Mon logo</a>
+					<a href="index.html" class="header__logo">
+						<span class="visuallyhidden">Retour à l'accueil</span>
+						<img src="./img/portfolio_logo.png" alt="Logo du site Jimmy Letecheur"
+						     title="Retour à l'accueil" width="50" height="45">
+						<svg width="43" height="20" viewBox="0 0 43 20" xmlns="http://www.w3.org/2000/svg">
+							<g fill="none">
+								<path d="M1 20c.5.5 9-4 10-4.5s30.5.5 31 0 .5-13.5 0-14.5-34.5-1-35.504 0c-1.004 1-5.996 18.5-5.496 19z"
+								      fill="#D8D8D8"/>
+								<text font-family="Bariol-Regular, Bariol" font-size="10" letter-spacing=".276"
+								      fill="#27384A" transform="translate(-84 -7) translate(84 7)">
+									<tspan x="8.191" y="10.88">Accueil</tspan>
+								</text>
+							</g>
+						</svg>
+					</a>
 					<nav class="menu">
 						<h2 class="menu__title" aria-level="2">Menu de navigation</h2>
-						<a href="index.html" class="menu__item">Accueil</a>
 						<a href="portfolio.html" class="menu__item">Portfolio</a>
 						<a href="#" class="menu__item">Blog</a>
 						<a href="about.html" class="menu__item">À propos</a>
-						<a href="#" class="menu__item">Contactez-moi</a>
+						<a href="#" class="menu__item">Contact</a>
 					</nav>
 				</header>
 				<div class="site-content">
 					<div class="container">
-						<main>
+						<section>
 							<section class="portfolio-intro">
 								<h2 aria-level="2" class="portfolio-intro__section-title">Mon portfolio</h2>
 								<span class="portfolio-intro__title">
@@ -41,8 +54,10 @@
 									Je ne compte plus les heures passées derrière un éditeur de code depuis longtemps.
 									Au travers de cette section, je vous fais découvrir certains projets que j’ai pu réaliser.
 								</p>
+								<svg class="portfolio-intro__bottomarrow" width="27" height="26" viewBox="0 0 27 26" xmlns="http://www.w3.org/2000/svg"><path d="M26.97 12.153c0 .592-.206 1.094-.619 1.507l-10.898 10.915c-.435.413-.943.619-1.523.619-.592 0-1.094-.206-1.507-.619l-10.898-10.915c-.424-.402-.636-.904-.636-1.507 0-.592.212-1.099.636-1.523l1.239-1.256c.435-.413.943-.619 1.523-.619.592 0 1.094.206 1.507.619l4.922 4.922v-11.786c0-.58.212-1.083.636-1.507.424-.424.926-.636 1.507-.636h2.143c.58 0 1.083.212 1.507.636.424.424.636.926.636 1.507v11.786l4.922-4.922c.413-.413.915-.619 1.507-.619.58 0 1.088.206 1.523.619l1.256 1.256c.413.435.619.943.619 1.523z" fill="#27384A"/></svg>
 							</section>
-							<section class="portfolio-list">
+
+							<!--<div class="portfolio-list">
 								<div class="portfolio-list__wrap">
 
 									<div class="portfolio-list__workcol">
@@ -106,7 +121,63 @@
 									</div>
 
 								</div>
-							</section>
+							</div>-->
+
+							<article class="work-article">
+								<h3 aria-level="3" class="work-article__title">Sur un Baobab</h3>
+								<div class="work">
+									<div class="work__browser">
+										<a href="portfolio-baobab.html" class="work__link">
+											Vers la présentation de Sur un Baobab
+											<div class="work__topbar">
+												<span class="work__topbar__circles"></span>
+											</div>
+											<img class="work__img work__img-baobab"
+											     src="./img/portfolioimg/baobabfull.jpg" alt="Capture d'écran du site CV Caniuse"
+											     width="800" height="3114">
+											<div class="work__hovereffect"></div>
+										</a>
+									</div>
+								</div>
+							</article>
+
+							<article class="work-article">
+								<h3 aria-level="3" class="work-article__title"><abbr title="Curriculum Vitae">CV</abbr> <span lang="en">Can I Use</span></h3>
+								<div class="work">
+									<div class="work__browser">
+										<a href="#" class="work__link">
+											Vers la présentation du CV sur CanIuse
+											<div class="work__topbar">
+												<span class="work__topbar__circles"></span>
+											</div>
+											<img class="work__img work__img-caniuse"
+											     src="./img/portfolioimg/caniusefull.jpg" alt="Capture d'écran du site CV Caniuse"
+											     width="800" height="1513">
+											<div class="work__hovereffect"></div>
+										</a>
+									</div>
+								</div>
+							</article>
+
+							<article class="work-article">
+								<h3 aria-level="3" class="work-article__title"><abbr title="Curriculum Vitae">CV</abbr> Caniuse</h3>
+								<div class="work">
+									<div class="work__browser">
+										<a href="#" class="work__link">
+											Vers la présentation du site de l'exposition de Nicolas de Staël
+											<div class="work__topbar">
+												<span class="work__topbar__circles"></span>
+											</div>
+											<img class="work__img work__img-nicolasdestael"
+											     src="./img/portfolioimg/artistefull.jpg" alt="Capture d'écran du site de l'exposition Nicolas de Staël"
+											     width="800" height="1093">
+											<div class="work__hovereffect"></div>
+										</a>
+									</div>
+								</div>
+							</article>
+
+
 						</main>
 						<footer class="footer">
 							<div class="footer__follow-me">
@@ -199,6 +270,7 @@
 			</div>
 		</div>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+		<script type="text/javascript" src="scripts/retina.min.js"></script>
 		<script type="text/javascript" src="scripts/menu-res.js"></script>
 		<script type="text/javascript" src="scripts/changeword.js"></script>
 		<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
