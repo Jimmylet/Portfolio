@@ -98,62 +98,31 @@
 
 
 /************************************\
-  BLOCKBUTTON
+  GO TO
 \************************************/
 
-.blockbutton
-  margin: 0 auto
-  display flex
-  flex-direction row
-  max-width 67.4rem
-  &__link
-    position: relative
-    display inline-block
-    min-height 19.4em
-    width 50%
-    background-color color-introduction-col2
-  &__link:nth-child(2)
-    background-color color-introduction
-  &__text
-    margin: 6.5rem auto 0 auto
-    max-width: 15rem
-    display block
-    font-size: 2.62em
+.goto
+  &__section
     color color-text-white
-    text-transform: uppercase
-    font-family:ralewayfont
-    line-height 1.3em
-  &__svg
-    position: absolute
-    top: 0
-    left: 0
-    & line
-      stroke-width 0
-      stroke color-text-white
-      fill none
-      transition: all .4s ease-in-out;
-    & line.blockbutton__svg__top
-      transform translateX(340px)
-      stroke-dasharray 337
-    & line.blockbutton__svg__bottom
-      transform translateX(-340px)
-      stroke-dasharray 337
-    & line.blockbutton__svg__left
-      transform: translateY(-460px)
-      stroke-dasharray: 460
-    & line.blockbutton__svg__right
-      transform: translateY(195px)
-      stroke-dasharray: 460
-  &__link:hover
-    & line.blockbutton__svg__top
-    & line.blockbutton__svg__bottom
-      stroke-width 10
-      transform translateX(0px)
-    & line.blockbutton__svg__left
-    & line.blockbutton__svg__right
-      stroke-width 25
-      transform: translateY(0px)
-
+    &__title
+      font-size: 4.24em
+      text-transform: uppercase
+    &__paragraph
+      font-size: 2.06em
+      font-family: ralewayfont
+      font-weight: 100
+      line-height: 1.3em
+    &__button
+      display: inline-block
+      font-size 2.06em
+      color color-footer-background
+      background-color color-text-white
+      padding .5rem 3.9rem .8rem
+      border-radius 10rem
+      transition border-radius .3s ease
+      &:hover
+        border-radius 0
+        transition border-radius .3s ease
 
 @media screen and (max-width: 817px)
   .whati__cards-container

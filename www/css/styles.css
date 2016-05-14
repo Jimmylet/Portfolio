@@ -657,88 +657,33 @@ a {
   -webkit-transition: 0.6s cubic-bezier(0.69, 0.07, 0.23, 1);
   transition: 0.6s cubic-bezier(0.69, 0.07, 0.23, 1);
 }
-.blockbutton {
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  max-width: 67.4rem;
-}
-.blockbutton__link {
-  position: relative;
-  display: inline-block;
-  min-height: 19.4em;
-  width: 50%;
-  background-color: #0475a5;
-}
-.blockbutton__link:nth-child(2) {
-  background-color: #009fba;
-}
-.blockbutton__text {
-  margin: 6.5rem auto 0 auto;
-  max-width: 15rem;
-  display: block;
-  font-size: 2.62em;
+.goto__section {
   color: #e7e7e7;
+}
+.goto__section__title {
+  font-size: 4.24em;
   text-transform: uppercase;
+}
+.goto__section__paragraph {
+  font-size: 2.06em;
   font-family: raleway, Helvetica, Arial, sans-serif;
+  font-weight: 100;
   line-height: 1.3em;
 }
-.blockbutton__svg {
-  position: absolute;
-  top: 0;
-  left: 0;
+.goto__section__button {
+  display: inline-block;
+  font-size: 2.06em;
+  color: #27384a;
+  background-color: #e7e7e7;
+  padding: 0.5rem 3.9rem 0.8rem;
+  border-radius: 10rem;
+  -webkit-transition: border-radius 0.3s ease;
+  transition: border-radius 0.3s ease;
 }
-.blockbutton__svg line {
-  stroke-width: 0;
-  stroke: #e7e7e7;
-  fill: none;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-.blockbutton__svg line.blockbutton__svg__top {
-  -webkit-transform: translateX(340px);
-      -ms-transform: translateX(340px);
-          transform: translateX(340px);
-  stroke-dasharray: 337;
-}
-.blockbutton__svg line.blockbutton__svg__bottom {
-  -webkit-transform: translateX(-340px);
-      -ms-transform: translateX(-340px);
-          transform: translateX(-340px);
-  stroke-dasharray: 337;
-}
-.blockbutton__svg line.blockbutton__svg__left {
-  -webkit-transform: translateY(-460px);
-      -ms-transform: translateY(-460px);
-          transform: translateY(-460px);
-  stroke-dasharray: 460;
-}
-.blockbutton__svg line.blockbutton__svg__right {
-  -webkit-transform: translateY(195px);
-      -ms-transform: translateY(195px);
-          transform: translateY(195px);
-  stroke-dasharray: 460;
-}
-.blockbutton__link:hover line.blockbutton__svg__top,
-.blockbutton__link:hover line.blockbutton__svg__bottom {
-  stroke-width: 10;
-  -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-          transform: translateX(0px);
-}
-.blockbutton__link:hover line.blockbutton__svg__left,
-.blockbutton__link:hover line.blockbutton__svg__right {
-  stroke-width: 25;
-  -webkit-transform: translateY(0px);
-      -ms-transform: translateY(0px);
-          transform: translateY(0px);
+.goto__section__button:hover {
+  border-radius: 0;
+  -webkit-transition: border-radius 0.3s ease;
+  transition: border-radius 0.3s ease;
 }
 @media screen and (max-width: 817px) {
   .whati__cards-container {
@@ -2111,16 +2056,9 @@ a {
   margin-top: 1.802em;
 }
 .whati {
-  min-height: 73.1em;
-}
-@media screen and (max-width: 817px) {
-  .whati {
-    height: 150em;
-  }
-}
-.whati {
   padding: 0 2em;
   text-align: center;
+  padding-bottom: 20em;
 }
 .whati__cards-container {
   max-width: 100.5em;
@@ -2132,8 +2070,35 @@ a {
   position: relative;
   top: -140px;
 }
-.blockbutton {
-  margin: 6em auto 0 auto;
+.goto {
+  max-width: 110em;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5.2em;
+}
+.goto__section {
+  width: 50%;
+}
+.goto__section__title {
+  margin-bottom: 1.8rem;
+}
+.goto__section__paragraph {
+  max-width: 41.7rem;
+  margin: 0 auto 3rem auto;
 }
 .about-intro__title-section {
   position: absolute;
