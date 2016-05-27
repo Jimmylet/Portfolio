@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="229fd765-ef02-48e6-9bdd-a9f4a5c05cdd" name="Default" comment="modify portfolio-list for coherance">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/about.html" afterPath="$PROJECT_DIR$/www/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/styles.css" afterPath="$PROJECT_DIR$/www/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/portfolio-baobab.html" afterPath="$PROJECT_DIR$/www/portfolio-baobab.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/portfolio.html" afterPath="$PROJECT_DIR$/www/portfolio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/components/header_components.styl" afterPath="$PROJECT_DIR$/www/stylus/components/header_components.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/components/portfolio/portfolio-view.styl" afterPath="$PROJECT_DIR$/www/stylus/components/portfolio/portfolio-view.styl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/objects/portfolio_objects.styl" afterPath="$PROJECT_DIR$/www/stylus/objects/portfolio_objects.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl" afterPath="$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/stylus/objects/section.welcome_objects.styl" afterPath="$PROJECT_DIR$/www/stylus/objects/section.welcome_objects.styl" />
     </list>
     <ignored path="Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,90 +34,37 @@
     <favorites_list name="Portfolio" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="portfolio-baobab.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/portfolio-baobab.html">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.45283">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-              <folding>
-                <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/www/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48976377">
-              <caret line="377" column="76" selection-start-line="377" selection-start-column="76" selection-end-line="377" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/portfolio.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9433962">
-              <caret line="272" column="8" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="76" />
+            <state vertical-scroll-proportion="-11.230769">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
                 <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#3373#6975#0" expanded="false" />
-                <element signature="n#footer#0;n#section#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header_components.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylus/components/header_components.styl">
+      <file leaf-file-name="section.welcome_components.styl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.307693">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5527559">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio-view.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylus/components/portfolio/portfolio-view.styl">
+      <file leaf-file-name="section.welcome_objects.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/stylus/objects/section.welcome_objects.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.981132">
-              <caret line="131" column="8" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio_objects.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylus/objects/portfolio_objects.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.981132">
-              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylus/settings/colors.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fonts.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/stylus/settings/fonts.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state vertical-scroll-proportion="-16.615385">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -176,8 +120,6 @@
         <option value="$PROJECT_DIR$/www/stylus/styles.styl" />
         <option value="$PROJECT_DIR$/www/portfolio-view.html" />
         <option value="$PROJECT_DIR$/www/stylus/objects/header_objects.styl" />
-        <option value="$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl" />
-        <option value="$PROJECT_DIR$/www/stylus/objects/section.welcome_objects.styl" />
         <option value="$PROJECT_DIR$/www/stylus/settings/colors.styl" />
         <option value="$PROJECT_DIR$/www/stylus/components/secion.introduction_components.styl" />
         <option value="$PROJECT_DIR$/www/stylus/objects/section.introduction_objects.styl" />
@@ -188,13 +130,15 @@
         <option value="$PROJECT_DIR$/www/stylus/components/portfolio/portfolio_list_components.styl" />
         <option value="$PROJECT_DIR$/www/stylus/components/section.whati_components.styl" />
         <option value="$PROJECT_DIR$/www/stylus/objects/section.whati_objects.styl" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/stylus/components/portfolio/portfolio-view.styl" />
         <option value="$PROJECT_DIR$/www/stylus/objects/portfolio_objects.styl" />
         <option value="$PROJECT_DIR$/www/portfolio.html" />
         <option value="$PROJECT_DIR$/www/stylus/components/header_components.styl" />
         <option value="$PROJECT_DIR$/www/portfolio-baobab.html" />
         <option value="$PROJECT_DIR$/www/about.html" />
+        <option value="$PROJECT_DIR$/www/index.html" />
+        <option value="$PROJECT_DIR$/www/stylus/objects/section.welcome_objects.styl" />
+        <option value="$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl" />
       </list>
     </option>
   </component>
@@ -291,6 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -385,35 +330,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylus" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -652,7 +570,7 @@
     <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32188842" sideWeight="0.4944134" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.4944134" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2737921" sideWeight="0.50558656" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -692,7 +610,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/www/index.html</url>
-          <line>430</line>
+          <line>165</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -910,13 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylus/objects/section.welcome_objects.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2854985">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/stylus/components/secion.introduction_components.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="7.269231">
@@ -924,25 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0384616">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/stylus/objects/section.introduction_objects.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57272726">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylus/settings/fonts.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,128 +853,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2122" column="1" selection-start-line="2122" selection-start-column="1" selection-end-line="2122" selection-end-column="1" />
-          <folding>
-            <marker date="1463233618000" expanded="true" signature="76:593" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="605:1096" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="1108:1606" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="1618:2070" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="2082:2540" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="2552:3027" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="3039:3518" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="3530:3943" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4435:4542" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4631:4652" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4658:4679" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4687:4710" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4725:4744" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4800:4835" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4842:4895" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4901:4964" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="4986:5043" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5049:5220" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5223:5269" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5286:5375" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5384:5452" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5465:5584" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5622:5720" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5746:5771" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5850:6612" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="5867:6062" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="6071:6247" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="6262:6305" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="6336:6470" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="6500:6610" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="6622:6869" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="6886:6982" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7001:7022" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7045:7143" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7181:7273" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7194:7271" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7316:7372" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7329:7370" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7399:7428" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7461:7674" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7752:7862" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7892:7934" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7972:8026" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="7988:8024" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="8065:8216" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="8101:8214" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="8223:8542" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="8570:8591" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="8604:8722" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="8737:8966" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="8987:9112" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="9428:9691" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="9438:9689" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="9729:9983" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="10437:10700" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="10447:10698" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="10761:11230" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="10771:11058" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="11073:11124" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="11822:12133" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="11832:12131" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="12217:12684" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="12227:12512" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="12527:12578" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="12595:12682" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="13414:13723" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="13424:13721" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="13831:14128" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="13841:14126" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15002:15311" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15012:15309" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15331:15363" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15390:15480" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15494:15513" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15532:15587" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15613:15705" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15734:15766" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15799:15828" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15862:15894" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="15928:15960" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16060:16160" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16175:16450" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16474:16520" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16541:16587" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16607:16668" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16694:16737" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16764:16842" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="16873:17031" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="17066:17185" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="17218:17399" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="17432:17616" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="17654:17819" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="17725:17817" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="17827:17859" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="17873:17981" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18001:18026" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18047:18165" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18185:18276" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18298:18449" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18505:18603" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18617:18655" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18672:18710" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18734:18783" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18813:18840" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="18877:19003" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19089:19110" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19153:19176" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19219:19242" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19286:19309" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19354:19377" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19420:19443" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19469:19606" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19634:19774" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19803:19820" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="19846:20079" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="20107:20340" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="54721:54828" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="54843:54868" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="54880:54918" placeholder="{...}" />
-            <marker date="1463233618000" expanded="true" signature="54931:54968" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.038462">
           <caret line="244" column="19" selection-start-line="244" selection-start-column="19" selection-end-line="244" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="18.153847">
           <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,51 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.423077">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylus/settings/colors.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26586103">
-          <caret line="245" column="104" selection-start-line="245" selection-start-column="104" selection-end-line="245" selection-end-column="104" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#section#0;n#section#1;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#section#1;n#section#1;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#svg#0;n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#0;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#1;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#article#2;n#div#0;n#section#2;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#18183#20544#0" expanded="false" />
-            <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylus/components/portfolio/portfolio-view.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.981132">
-          <caret line="131" column="8" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/stylus/objects/portfolio_objects.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.981132">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,16 +896,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.45283">
           <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <element signature="n#section#0;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#1;n#main#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36220473">
+          <caret line="374" column="18" selection-start-line="374" selection-start-column="18" selection-end-line="374" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/portfolio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9433962">
+        <state vertical-scroll-proportion="0.33228347">
           <caret line="272" column="8" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="76" />
           <folding>
             <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1191,16 +921,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/stylus/components/header_components.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.307693">
+        <state vertical-scroll-proportion="0.326284">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylus/components/portfolio/portfolio-view.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33228347">
+          <caret line="131" column="8" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylus/objects/portfolio_objects.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33228347">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylus/settings/colors.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41732284">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/about.html">
+    <entry file="file://$PROJECT_DIR$/www/stylus/settings/fonts.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48976377">
-          <caret line="377" column="76" selection-start-line="377" selection-start-column="76" selection-end-line="377" selection-end-column="76" />
+        <state vertical-scroll-proportion="0.0407855">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.230769">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylus/objects/section.welcome_objects.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.615385">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/stylus/components/section.welcome_components.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5527559">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
