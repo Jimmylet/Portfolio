@@ -1,0 +1,83 @@
+.home-content
+  background-color #165e94
+  &__title
+    color #FFF
+    font-weight: bold
+    font-size: 3.33em
+    width 100%
+    border 3px dashed #00BAC8
+    border-radius .8rem
+    text-align center
+    padding 4.2rem 0 5rem 0
+  &__card
+    margin-bottom 7rem
+    padding 3.2em
+    background-color #1E8BC3
+    box-shadow: inset 0px -3px 0px 0px #0f4b73;
+    border-radius: .6rem
+    color color-text-white
+    overflow: hidden
+    &:last-child
+      margin-bottom 0
+    &__img
+      float left
+      margin-right 4em
+    &__title
+      font-size: 2.62rem
+      margin-bottom 1.2rem
+    &__paragraph
+      font-family: ralewayfont
+      font-size: 2.06em
+      font-weight: 100;
+      color: color-text-white
+      letter-spacing: 0.56px
+      line-height: 1.3em
+
+
+/************************************\
+  ANIM BOX PORTFOLIO
+\************************************/
+
+.whati__box
+#topbox
+  animation 3.5s couvercle infinite
+  transform translateY(0px)
+
+#box
+  #bcgbox
+    transition fill .3s ease
+
+@keyframes couvercle
+  0%{
+    transform translateY(0px)
+    transform rotate(0deg)
+  }
+
+  5%{
+    transform translateX(-6px)
+  }
+
+  10%{
+    transform translateX(6px)
+  }
+
+  15%{
+    transform translateX(-6px)
+  }
+
+  20%{
+    transform translateX(6px)
+  }
+
+  25%{
+    transform translateX(0)
+  }
+
+  100%{
+    transform translateY(0)
+  }
+
+#box:hover
+  #bcgbox
+    transition fill .3s ease
+    fill: #315366
