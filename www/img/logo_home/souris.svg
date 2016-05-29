@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="74px" viewBox="0 0 48 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>souris</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="38.9649 0.901 0 0.901 0 75.2496 38.9649 75.2496 38.9649 0.901"></polygon>
+        <polygon id="path-3" points="19.4825 0.901 0.0005 0.901 0.0005 75.2499 19.4825 75.2499"></polygon>
+    </defs>
+    <g id="Accueil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accueil_Desktop_HD-Copy" transform="translate(-960.000000, -2628.000000)">
+            <g id="souris" transform="translate(984.283979, 2665.051812) rotate(13.000000) translate(-984.283979, -2665.051812) translate(964.783979, 2626.551812)">
+                <g transform="translate(0.000000, 0.099100)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-4"></g>
+                    <path d="M38.9649,55.7676 C38.9649,66.5276 30.2419,75.2496 19.4809,75.2496 C8.7209,75.2496 -0.0001,66.5276 -0.0001,55.7676 L-0.0001,20.3826 C-0.0001,9.6216 8.7209,0.9006 19.4809,0.9006 C30.2419,0.9006 38.9649,9.6216 38.9649,20.3826 L38.9649,55.7676 Z" id="Fill-3" fill="#F4EFEF" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-10" transform="translate(0.000000, 0.099100)">
+                    <path d="M19.4825,0.9009 L19.4805,0.9009 C8.7205,0.9009 0.0005,9.6219 0.0005,20.3829 L0.0005,55.7679 C0.0005,66.5279 8.7205,75.2499 19.4805,75.2499 L19.4825,75.2499 L19.4825,0.9009 Z" id="Fill-8" fill="#FFFFFF"></path>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-9"></g>
+                </g>
+                <path d="M21.8711,23.0659 C21.8711,24.4919 20.7111,25.6499 19.2851,25.6499 C17.8551,25.6499 16.6971,24.4919 16.6971,23.0659 L16.6971,12.7279 C16.6971,11.3029 17.8551,10.1459 19.2851,10.1459 C20.7111,10.1459 21.8711,11.3029 21.8711,12.7279 L21.8711,23.0659 Z" id="Fill-6" fill="#AFAFAF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

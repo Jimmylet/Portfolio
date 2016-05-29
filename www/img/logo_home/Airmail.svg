@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="59px" viewBox="0 0 80 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Airmail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Accueil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accueil_Desktop_HD-Copy" transform="translate(-363.000000, -2765.000000)">
+            <g id="Airmail" transform="translate(362.963216, 2765.451605)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="60.5471947 35.8053684 79.9878343 25.6013268 0.000311075119 0.000622150239"></polygon>
+                <polygon id="Fill-2" fill="#CACACA" points="60.5471947 57.9389076 60.5471947 35.8051351 0.000311075119 0.0003888439"></polygon>
+                <polygon id="Fill-3" fill="#E4E4E4" points="0 0.000311075119 60.5468836 57.9388298 51.5000414 41.1928784"></polygon>
+                <polygon id="Fill-4" fill="#FFFFFF" points="30.2735973 55.2442193 51.4998081 41.1929562 -0.000233306339 0.0003888439"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

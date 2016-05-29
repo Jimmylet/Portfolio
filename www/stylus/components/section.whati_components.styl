@@ -13,6 +13,12 @@
     max-width 33em
     padding 3em
     text-align center
+    &:nth-child(1)
+      border-radius 0.8rem 0 0rem 0.8rem
+    &:nth-child(2)
+      border-radius 0;
+    &:nth-child(3)
+      border-radius 0 0.8rem 0.8rem 0
     &__icon
       margin-bottom 2em
     &__title
@@ -38,10 +44,9 @@
         transition trans
         background-color color-portolio-blue - 10%
 
-.whati__blog
-  border-right 1px solid #B2B2B2
 .whati__contact
   border-right 1px solid #B2B2B2
+  border-left 1px solid #B2B2B2
 
 .whati
   &__social
@@ -130,8 +135,6 @@
     flex-direction column
   .whati__card
     border none
-  .whati
-    height 150em
   .whati__title
     top 17em
 

@@ -1,3 +1,5 @@
+@import "kouto-swiss"
+
 .home-content
   background-color #165e94
   &__title
@@ -38,7 +40,9 @@
   ANIM BOX PORTFOLIO
 \************************************/
 
-.whati__box
+.whati__box__link
+  display inline-block
+  animation 3.5s couvercle infinite
 #topbox
   animation 3.5s couvercle infinite
   transform translateY(0px)
@@ -81,3 +85,54 @@
   #bcgbox
     transition fill .3s ease
     fill: #315366
+
+/************************************\
+  PARRALAX EFFECT
+\************************************/
+
+.whati__wrap-parralax
+  max-width 900px
+  position: relative
+  margin: 0 auto
+  height: 100%
+
+.whati
+  position: relative
+  &__clavier
+    position: absolute
+    top: -50px
+    left 0px
+  &__telephone
+    position: absolute
+    left: -30px
+    top 80px
+  &__airmail
+    position: absolute
+    left 50px
+    top: 200px
+  &__ipad
+    position: absolute
+    right: -50px
+    top -40px
+  &__souris
+    position: absolute
+    right 180px
+    top 30px
+  &__ordinateur
+    position: absolute
+    right -80px
+    top 220px
+
+
+@media screen and (max-width: 788px)
+  .whati__wrap-parralax
+    img
+      display none !important
+    background-image url("../img/logo_home/bcg1.png");
+    background-repeat no-repeat
+    background-size contain
+    retina-image( "../img/logo_home/bcg1.png", contain, "@2x" )
+
+@media screen and (max-width: 682px)
+  .whati__wrap-parralax
+    background-image none
