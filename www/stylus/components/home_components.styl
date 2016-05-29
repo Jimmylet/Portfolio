@@ -10,7 +10,7 @@
     border 3px dashed #00BAC8
     border-radius .8rem
     text-align center
-    padding 4.2rem 0 5rem 0
+    padding 4.2rem 2rem 5rem 2rem
   &__card
     margin-bottom 7rem
     padding 3.2em
@@ -135,4 +135,21 @@
 
 @media screen and (max-width: 682px)
   .whati__wrap-parralax
-    background-image none
+    background-image none !important
+
+@media screen and (max-width: 616px)
+  .home-content__card
+    text-align center
+  .home-content__card__img
+    float none
+    display block
+    margin: 0 auto 2rem auto
+  .introduction__computer-container
+    width 100%
+    svg
+      .computer__text1
+      .computer__text2
+        display none
+      margin: 0 auto
+      display block
+      width: 100%

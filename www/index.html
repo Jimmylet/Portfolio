@@ -211,8 +211,8 @@
 								</div>
 								<div class="whati__box whati__wrap-parralax">
 									<img class="whati__clavier" data-stellar-ratio="0.85" src="./img/logo_home/clavier.svg" alt="">
-									<img class="whati__airmail" data-stellar-ratio="1.2" src="./img/logo_home/airmail.svg" alt="">
-									<img class="whati__ipad" data-stellar-ratio="0.8" src="./img/logo_home/ipad.svg" alt="">
+									<img class="whati__airmail" data-stellar-ratio="1.25" src="./img/logo_home/airmail.svg" alt="">
+									<img class="whati__ipad" data-stellar-ratio="0.85" src="./img/logo_home/ipad.svg" alt="">
 
 									<a class="whati__box__link" href="#"><span class="visuallyhidden">Vers le portfolio</span>
 									<svg id="box" width="252" height="252" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -243,8 +243,8 @@
 								</a>
 
 									<img class="whati__ordinateur" data-stellar-ratio="0.9" src="./img/logo_home/ordinateur.svg" alt="">
-									<img class="whati__souris" data-stellar-ratio="1.1" src="./img/logo_home/souris.svg" alt="">
-									<img class="whati__telephone" data-stellar-ratio="1.1" src="./img/logo_home/telephone.svg" alt="">
+									<img class="whati__souris" data-stellar-ratio="1.25" src="./img/logo_home/souris.svg" alt="">
+									<img class="whati__telephone" data-stellar-ratio="0.85" src="./img/logo_home/telephone.svg" alt="">
 
 								</div>
 
@@ -346,7 +346,6 @@
 		<script type="text/javascript" src="scripts/menu-res.js"></script>
 		<script type="text/javascript" src="scripts/retina.min.js"></script>
 		<script type="text/javascript" src="scripts/typed.js"></script>
-		<script type="text/javascript" src="scripts/computer_anim.js"></script>
 		<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
 		<script type="text/javascript" src="scripts/jquery.stellar.js"></script>
 		<script>
@@ -382,6 +381,12 @@
 			$("body").addClass("js--active");
 			$('.whati__cards-container').viewportChecker({
 				classToAdd: 'anim-cards',
+				offset: 300,
+				repeat: false,
+			});
+
+			$('.introduction__computer-container').viewportChecker({
+				classToAdd: 'anim-computer',
 				offset: 300,
 				repeat: false,
 				callbackFunction: function (elem, action) {

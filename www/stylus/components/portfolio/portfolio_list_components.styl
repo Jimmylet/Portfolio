@@ -115,34 +115,37 @@
   ANIMATION FADEINUP
 \************************************/
 
-/*animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
-
-.animated.hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-}*/
-
-/*@keyframes fadeInUp {
+@keyframes fadeInUp
   from {
     opacity: 0;
     transform: translate3d(0, 50%, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: none;
     transform: none;
   }
-}
+
+@keyframes fadeOpacity
+  from{
+    opacity 0;
+  }
+  to{
+    opacity 1;
+  }
+
 .js--active
-  .fadeInUp {
+  .work
+  .work-article__title
+    opacity 0
+  .fadeInUp
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-fill-mode: both;
-  }*/
+  .fadeOpacity
+    animation-name: fadeOpacity
+    animation-duration .5s
+    animation-fill-mode: both;
 
 
 /************************************\
@@ -249,6 +252,4 @@
   opacity .6
   transition .5s ease-in
 .work__browser:hover .work__img
-  bottom 0px
-
-
+  bottom 0

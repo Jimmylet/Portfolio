@@ -43,7 +43,6 @@
 				</header>
 				<div class="site-content">
 					<div class="container">
-						<section>
 							<section class="portfolio-intro">
 								<h2 aria-level="2" class="portfolio-intro__section-title">Mon portfolio</h2>
 								<span class="portfolio-intro__title">
@@ -275,13 +274,16 @@
 		<script type="text/javascript" src="scripts/changeword.js"></script>
 		<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
 		<script type="text/javascript">
-			$(".portfolio-list__item").css("opacity","0");
-			$(".portfolio-list__workcol").addClass("js--active");
-			$('.portfolio-list__item').viewportChecker({
+			$("body").addClass("js--active");
+			$('.work').viewportChecker({
 				classToAdd: 'fadeInUp',
 				offset: 150,
 				repeat: false,
-				callbackFunction: function(elem, action){}
+			});
+			$('.work-article__title').viewportChecker({
+				classToAdd: 'fadeOpacity',
+				offset: 120,
+				repeat: false,
 			});
 		</script>
 	</body>
