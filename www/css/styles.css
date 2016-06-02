@@ -1570,8 +1570,7 @@ a {
   color: #e7e7e7;
   font-weight: normal;
 }
-.js--active .work,
-.js--active .work-article__title {
+.js--active .work {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
@@ -1581,14 +1580,6 @@ a {
   animation-name: fadeInUp;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-.js--active .fadeOpacity {
-  -webkit-animation-name: fadeOpacity;
-  animation-name: fadeOpacity;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -1690,15 +1681,6 @@ a {
     z-index: -1;
     width: 100%;
   }
-  .work__img-baobab {
-    bottom: -2696px;
-  }
-  .work__img-caniuse {
-    bottom: -1095px;
-  }
-  .work__img-nicolasdestael {
-    bottom: -687px;
-  }
 }
 .work__browser:hover .work__hovereffect {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
@@ -1708,7 +1690,7 @@ a {
   transition: 0.5s ease-in;
 }
 .work__browser:hover .work__img {
-  bottom: 0;
+  bottom: 0 !important;
 }
 @-webkit-keyframes fadeInUp {
   from {
@@ -1748,32 +1730,6 @@ a {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
-  }
-}
-@-webkit-keyframes fadeOpacity {
-  from {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  to {
-    -ms-filter: none;
-    -webkit-filter: none;
-            filter: none;
-    opacity: 1;
-  }
-}
-@keyframes fadeOpacity {
-  from {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-  }
-  to {
-    -ms-filter: none;
-    -webkit-filter: none;
-            filter: none;
-    opacity: 1;
   }
 }
 .portfolio-view {

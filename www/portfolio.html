@@ -56,71 +56,6 @@
 								<svg class="portfolio-intro__bottomarrow" width="27" height="26" viewBox="0 0 27 26" xmlns="http://www.w3.org/2000/svg"><path d="M26.97 12.153c0 .592-.206 1.094-.619 1.507l-10.898 10.915c-.435.413-.943.619-1.523.619-.592 0-1.094-.206-1.507-.619l-10.898-10.915c-.424-.402-.636-.904-.636-1.507 0-.592.212-1.099.636-1.523l1.239-1.256c.435-.413.943-.619 1.523-.619.592 0 1.094.206 1.507.619l4.922 4.922v-11.786c0-.58.212-1.083.636-1.507.424-.424.926-.636 1.507-.636h2.143c.58 0 1.083.212 1.507.636.424.424.636.926.636 1.507v11.786l4.922-4.922c.413-.413.915-.619 1.507-.619.58 0 1.088.206 1.523.619l1.256 1.256c.413.435.619.943.619 1.523z" fill="#27384A"/></svg>
 							</section>
 
-							<!--<div class="portfolio-list">
-								<div class="portfolio-list__wrap">
-
-									<div class="portfolio-list__workcol">
-										<div class="portfolio-list__item">
-											<a href="./portfolio-view.html" class="portfolio-list__link">
-												<section class="portfolio-list__overlay">
-													<div class="portfolio-list__caption">
-														<h3 aria-level="3" class="portfolio-list__title"><abbr title="Association à but non lucratif">ASBL</abbr> Sur un Baobab</h3>
-														<span class="portfolio-list__desc">Refonte d'un site web</span>
-														<span class="portfolio-list__techno">Design, <abbr title="HyperText Markup Language">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>, Javascript, Wordpress</span>
-													</div>
-												</section>
-												<img class="portfolio-list__img" src="./img/portfolio-list/surunbaobab.jpg" alt="Portrait d'une jeune Malgache ayant participé aux ateliers de Surunbaobab" width="780" height="521">
-											</a>
-										</div>
-									</div>
-
-									<div class="portfolio-list__workcol">
-										<div class="portfolio-list__item">
-											<a href="#" class="portfolio-list__link">
-												<section class="portfolio-list__overlay">
-													<div class="portfolio-list__caption">
-														<h3 aria-level="3" class="portfolio-list__title">Expo Nicolas de Staël</h3>
-														<span class="portfolio-list__desc">Création de site web</span>
-														<span class="portfolio-list__techno">Design, <abbr title="HyperText Markup Langage">HTML</abbr>/<abbr title="Cascading Style Sheets">CSS</abbr>, Javascript</span>
-													</div>
-												</section>
-												<img class="portfolio-list__img" src="./img/portfolio-list/nicolasdestael.jpg" width="780" height="521" alt="Photo d'une peinture de Nicolas de Staël">
-											</a>
-										</div>
-									</div>
-
-									<div class="portfolio-list__workcol">
-										<div class="portfolio-list__item">
-											<a href="#" class="portfolio-list__link">
-												<section class="portfolio-list__overlay">
-													<div class="portfolio-list__caption">
-														<h3 aria-level="3" class="portfolio-list__title">Can I Use</h3>
-														<span class="portfolio-list__desc">Création d'un <abbr title="Curriculum Vitae">CV</abbr> sur base du site Caniuse.com</span>
-														<span class="portfolio-list__techno"><abbr title="HyperText Markup Language">HTML</abbr><abbr title="Cascading Style Sheets">CSS</abbr></span>
-													</div>
-												</section>
-												<img class="portfolio-list__img" src="./img/portfolio-list/caniusecv.png" width="780" height="521" alt="Logo de CSS Zen Garden">
-											</a>
-										</div>
-									</div>
-
-									<div class="portfolio-list__workcol">
-										<div class="portfolio-list__item">
-											<a href="#" class="portfolio-list__link">
-												<section class="portfolio-list__overlay">
-													<div class="portfolio-list__caption">
-														<h3 aria-level="3" class="portfolio-list__title"><abbr title="Cascading Style Sheets">Css</abbr> zen garden</h3>
-														<span class="portfolio-list__desc">Refonte personnelle pour CSS Zen Garden</span>
-														<span class="portfolio-list__techno">Design, <abbr title="Cascading Style Sheets">CSS</abbr></span>
-													</div>
-												</section>
-												<img class="portfolio-list__img" src="./img/portfolio-list/zengarden.jpg" width="780" height="521" alt="Logo de CSS Zen Garden">
-											</a>
-										</div>
-									</div>
-
-								</div>
-							</div>-->
 
 							<article class="work-article">
 								<h3 aria-level="3" class="work-article__title">Sur un Baobab</h3>
@@ -131,7 +66,7 @@
 											<div class="work__topbar">
 												<span class="work__topbar__circles"></span>
 											</div>
-											<img class="work__img work__img-baobab"
+											<img class="work__img work__img-baobab" style="bottom: -2669px;"
 											     src="./img/portfolioimg/baobabfull.jpg" alt="Capture d'écran du site CV Caniuse"
 											     width="800" height="3114">
 											<div class="work__hovereffect"></div>
@@ -271,8 +206,30 @@
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 		<script type="text/javascript" src="scripts/retina.min.js"></script>
 		<script type="text/javascript" src="scripts/menu-res.js"></script>
-		<script type="text/javascript" src="scripts/changeword.js"></script>
 		<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
+		<script type="text/javascript">
+			$(function() { // DOM ready
+				$(".portfolio-intro__title").addClass("js--active");
+
+				var txt = ['code', 'réalise', 'développe', 'design', 'crée', 'réalise'],
+						n = txt.length,
+						$swap = $('.portfolio-intro__swap'),
+						$span,
+						c = -1;
+
+				// CREATE SPANS INSIDE SPAN
+				for(var i=0; i<txt.length; i++) $swap.append($('<span />',{text:txt[i]}));
+				// HIDE AND COLLECT THEM
+				$span = $("span", $swap).hide();
+
+				(function loop(){
+						c = ++c % n;
+						$swap.animate({width: $span.eq( c ).width() });
+						$span.stop().fadeOut().eq(c).fadeIn().delay(1000).show(0, loop);
+				}());
+
+			});
+		</script>
 		<script type="text/javascript">
 			$("body").addClass("js--active");
 			$('.work').viewportChecker({
