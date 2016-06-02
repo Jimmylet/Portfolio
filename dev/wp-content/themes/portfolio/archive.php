@@ -35,7 +35,7 @@ if(is_page()){
     <h3 aria-level="3" class="work-article__title"><?php the_title(); ?></h3>
     <div class="work">
       <div class="work__browser">
-        <a href="portfolio-baobab.html" class="work__link">
+        <a href="<?php the_permalink(); ?>" class="work__link">
           Vers la présentation de <?php the_title; ?>
           <div class="work__topbar">
             <span class="work__topbar__circles"></span>
