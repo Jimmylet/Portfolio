@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>illustrator copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="À-propos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-688.000000, -3672.000000)">
+            <g id="applications" transform="translate(0.000000, 3577.000000)">
+                <g id="Apps" transform="translate(392.000000, 95.000000)">
+                    <g id="Animate-CC" transform="translate(278.000000, 0.000000)">
+                        <g id="illustrator-copy" transform="translate(18.000000, 0.000000)">
+                            <g id="Layer_1" fill="#FF4926">
+                                <g id="Shape_13_">
+                                    <path d="M75,0 L5,0 C2.24,0 0,2.2375 0,5 L0,75 C0,77.76 2.24,80 5,80 L75,80 C77.76,80 80,77.76 80,75 L80,5 C80,2.2375 77.76,0 75,0 L75,0 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                            <g id="An" transform="translate(9.000000, 10.000000)">
+                                <polygon id="Path-Copy" fill="#FFFFFF" points="10.5 12.495 0.4975 47.5 7.0875 47.5 10.0975 37.8075 21.2 37.8075 24.3675 47.5 31.215 47.5 20.5 12.495"></polygon>
+                                <path d="M10.4975,33.31 L13.1975,24.8875 C13.82,22.8575 14.34,20.4725 14.8575,18.495 L14.9625,18.495 C15.4825,20.4725 16.0525,22.8075 16.7275,24.8875 L19.4775,33.31 L10.4975,33.31 L10.4975,33.31 Z" id="Path-Copy-2" fill="#FF4926"></path>
+                                <text id="n" font-family="Raleway-Bold, Raleway" font-size="50" font-weight="bold" letter-spacing="1.38000011" fill="#FFFFFF">
+                                    <tspan x="30.2498056" y="47.5005012">n</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

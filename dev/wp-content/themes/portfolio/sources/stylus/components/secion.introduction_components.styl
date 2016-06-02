@@ -1,0 +1,49 @@
+.introduction
+  position: relative
+  display flex
+  flex-direction row
+  &__idesign
+    background-color color-introduction
+    width 50%
+  &__idev
+    background-color color-introduction-col2
+    width 50%
+  &__col
+    color color-text-white
+    text-align center
+    padding 0 3em
+    &__wrap
+      margin 0 auto
+      padding-top 344px
+    &__title
+      font-size: 4.24em
+      text-transform: uppercase
+      margin 2rem 0 1.8rem
+    &__paragraph
+      margin: 0 auto
+      font-size 2.06em
+      font-family ralewayfont
+      font-weight: 100
+      line-height 1.3em
+      max-width 40rem
+  &__computer-container
+    width 55em
+    margin: 7rem auto 11.3rem auto
+
+/************************************\
+  ANIMATION COMPUTER
+\************************************/
+
+.anim-computer
+  .computer__text2
+    transform: translateX(130px)
+    transition .5s ease
+  .computer__text1
+    transform: translateX(-190px)
+    transition .5s ease
+
+@media screen and (max-width: 510px)
+  .anim-computer
+    .computer__text2
+    .computer__text1
+      transform none

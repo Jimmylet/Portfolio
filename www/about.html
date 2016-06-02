@@ -1,296 +1,221 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>À propos - Portfolio de Jimmy Letecheur</title>
-		<link rel="stylesheet" href="css/styles.css">
-		<!--[if lt IE 9]>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>À propos - Portfolio de Jimmy Letecheur</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<!--[if lt IE 9]>
 		<script src="./scripts/respond.js"></script>
 		<script src="./scripts/rem.min.js"></script>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-	</head>
-	<body>
-		<div class="site-container">
-			<div class="site-pusher">
-				<header class="header">
-					<h1 class="header__title" aria-level="1">A propos de Jimmy Letecheur</h1>
-					<input type="checkbox" class="header__icon" id="header__icon">
-					<label for="header__icon" class="header__icon__label">Menu</label>
-					<a href="index.html" class="header__logo">
-						<span class="visuallyhidden">Retour à l'accueil</span>
-						<img src="./img/portfolio_logo.png" alt="Logo du site Jimmy Letecheur"
-						     title="Retour à l'accueil" width="50" height="45">
-						<svg width="43" height="20" viewBox="0 0 43 20" xmlns="http://www.w3.org/2000/svg">
-							<g fill="none">
-								<path d="M1 20c.5.5 9-4 10-4.5s30.5.5 31 0 .5-13.5 0-14.5-34.5-1-35.504 0c-1.004 1-5.996 18.5-5.496 19z"
-								      fill="#D8D8D8"/>
-								<text font-family="Bariol-Regular, Bariol" font-size="10" letter-spacing=".276"
-								      fill="#27384A" transform="translate(-84 -7) translate(84 7)">
-									<tspan x="8.191" y="10.88">Accueil</tspan>
-								</text>
-							</g>
-						</svg>
+</head>
+
+<body>
+	<div class="site-container">
+		<div class="site-pusher">
+			<header class="header">
+				<h1 class="header__title" aria-level="1">A propos de Jimmy Letecheur</h1>
+				<input type="checkbox" class="header__icon" id="header__icon">
+				<label for="header__icon" class="header__icon__label">Menu</label>
+				<a href="index.html" class="header__logo">
+					<span class="visuallyhidden">Retour à l'accueil</span>
+					<img src="./img/portfolio_logo.png" alt="Logo du site Jimmy Letecheur" title="Retour à l'accueil" width="50" height="45">
+					<svg width="43" height="20" viewBox="0 0 43 20" xmlns="http://www.w3.org/2000/svg">
+						<g fill="none">
+							<path d="M1 20c.5.5 9-4 10-4.5s30.5.5 31 0 .5-13.5 0-14.5-34.5-1-35.504 0c-1.004 1-5.996 18.5-5.496 19z" fill="#D8D8D8" />
+							<text font-family="Bariol-Regular, Bariol" font-size="10" letter-spacing=".276" fill="#27384A" transform="translate(-84 -7) translate(84 7)">
+								<tspan x="8.191" y="10.88">Accueil</tspan>
+							</text>
+						</g>
+					</svg>
+				</a>
+				<nav class="menu">
+					<h2 class="menu__title" aria-level="2">Menu de navigation</h2>
+					<a href="portfolio.html" class="menu__item">Portfolio</a>
+					<a href="#" class="menu__item">Blog</a>
+					<a href="about.html" class="menu__item active">À propos</a>
+					<a href="mailto:jimmy@letecheur.me" class="menu__item menu__item-mail">
+						<span class="menu__item__logo">
+								<svg width="33" height="19" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+									<path d="M13.968,11.084l0,-3.5l-13,0l0,-4l13,0l0,-3.5l5.25,5.5l-5.25,5.5Z" style="fill:#FFF;fill-rule:nonzero;"/>
+								</svg>
+							</span>
+						<span class="menu__item__txt">Envoyer un email</span>
 					</a>
-					<nav class="menu">
-						<h2 class="menu__title" aria-level="2">Menu de navigation</h2>
-						<a href="portfolio.html" class="menu__item">Portfolio</a>
-						<a href="#" class="menu__item">Blog</a>
-						<a href="about.html" class="menu__item active">À propos</a>
-						<a href="#" class="menu__item">Contact</a>
-					</nav>
-				</header>
-				<div class="site-content">
-					<div class="container">
-						<main>
-							<section class="about-intro">
-								<h2 class="about-intro__title-section" aria-level="2">À propos de moi</h2>
-								<div class="about-intro__wrap">
-									<span class="about-intro__title">C'est moi, <strong>Jimmy Letecheur&nbsp;!</strong></span>
-									<figure class="about-intro__figure">
-										<img class="about-intro__figure__img" src="./img/svg/portrait_about.svg" width="238" height="238" alt="Portrait vectoriel de Jimmy Letecheur">
-									</figure>
-									<p class="about-intro__description">
-										Je suis étudiant en infographie web, j’ai 23 ans. J’habite la belle région de Liège, dans le beau pays qu’est la Belgique. Je suis un grand fan des animaux et du Standard de Liège. J’adore coder, j’adore apprendre de nouvelles choses. J’aime le design et tout ce qui s’en approche, mais par-dessus tout, j’aime le WEB !
-									</p>
-								</div>
-							</section>
-							<section class="about-cv">
-								<h2 aria-level="2" class="about-cv__title">Mon jeune parcours</h2>
-								<div class="about-cv__wrap">
-									<div class="about-cv__timeline-block">
-										<div class="about-cv__timeline-circle circle-3"></div>
-										<article class="about-cv__timeline-content">
-											<h3 aria-level="3" class="about-cv__timeline-title">
+				</nav>
+			</header>
+			<div class="site-content">
+				<div class="container">
+					<main>
+						<section class="about-intro">
+							<h2 class="about-intro__title-section" aria-level="2">À propos de moi</h2>
+							<div class="about-intro__wrap">
+								<span class="about-intro__title">C'est moi, <strong>Jimmy Letecheur&nbsp;!</strong></span>
+								<figure class="about-intro__figure">
+									<img class="about-intro__figure__img" src="./img/svg/portrait_about.svg" width="238" height="238" alt="Portrait vectoriel de Jimmy Letecheur">
+								</figure>
+								<p class="about-intro__description">
+									Je suis étudiant en infographie web, j’ai 23 ans. J’habite la belle région de Liège, dans le beau pays qu’est la Belgique. Je suis un grand fan des animaux et du Standard de Liège. J’adore coder, j’adore apprendre de nouvelles choses. J’aime le design
+									et tout ce qui s’en approche, mais par-dessus tout, j’aime le WEB !
+								</p>
+							</div>
+						</section>
+						<section class="about-cv">
+							<h2 aria-level="2" class="about-cv__title">Mon jeune parcours</h2>
+							<div class="about-cv__wrap">
+								<div class="about-cv__timeline-block">
+									<div class="about-cv__timeline-circle circle-3"></div>
+									<article class="about-cv__timeline-content">
+										<h3 aria-level="3" class="about-cv__timeline-title">
 												Études en infographie web
 											</h3>
-											<span class="about-cv__timeline-location">
+										<span class="about-cv__timeline-location">
 												Haute École de la Province de Liège
 											</span>
-											<p class="about-cv__timeline-description">
-												Actuellement en 2e année, ma formation porte sur les différents langages liés au web, l’ergonomie, le design mobile …
-											</p>
-										</article>
-										<span class="about-cv__timeline-year content-3">2016 - Actuellement</span>
+										<p class="about-cv__timeline-description">
+											Actuellement en 2e année, ma formation porte sur les différents langages liés au web, l’ergonomie, le design mobile …
+										</p>
+									</article>
+									<span class="about-cv__timeline-year content-3">2016 - Actuellement</span>
 
-									</div>
+								</div>
 
 
 
-									<div class="about-cv__timeline-block">
-										<div class="about-cv__timeline-circle circle-2 about-cv__timeline-content--odd"></div>
-										<article class="about-cv__timeline-content">
-											<h3 aria-level="3" class="about-cv__timeline-title">
+								<div class="about-cv__timeline-block">
+									<div class="about-cv__timeline-circle circle-2 about-cv__timeline-content--odd"></div>
+									<article class="about-cv__timeline-content">
+										<h3 aria-level="3" class="about-cv__timeline-title">
 												Un peu perdu…
 											</h3>
-											<span class="about-cv__timeline-location">
+										<span class="about-cv__timeline-location">
 												Haute École de la Province de Liège
 											</span>
-											<p class="about-cv__timeline-description">
-												Durant ces deux années, j’ai fait beaucoup d’essais, ne  parvenant pas à trouver ma voie. J’ai tenté le marketing, l’e-business, la communication et la réalisation. J’ai appris des choses très intéressantes, mais ce n’était pas fait pour moi.
-											</p>
-										</article>
-										<span class="about-cv__timeline-year content-2">2012&nbsp;-&nbsp;2014</span>
-									</div>
+										<p class="about-cv__timeline-description">
+											Durant ces deux années, j’ai fait beaucoup d’essais, ne parvenant pas à trouver ma voie. J’ai tenté le marketing, l’e-business, la communication et la réalisation. J’ai appris des choses très intéressantes, mais ce n’était pas fait pour moi.
+										</p>
+									</article>
+									<span class="about-cv__timeline-year content-2">2012&nbsp;-&nbsp;2014</span>
+								</div>
 
 
-									<div class="about-cv__timeline-block">
-										<div class="about-cv__timeline-circle circle-1"></div>
-										<article class="about-cv__timeline-content">
-											<h3 aria-level="3" class="about-cv__timeline-title">
+								<div class="about-cv__timeline-block">
+									<div class="about-cv__timeline-circle circle-1"></div>
+									<article class="about-cv__timeline-content">
+										<h3 aria-level="3" class="about-cv__timeline-title">
 												Fin des études secondaires
 											</h3>
-											<span class="about-cv__timeline-location">
+										<span class="about-cv__timeline-location">
 												Institut Polytechnique de Huy
 											</span>
-											<p class="about-cv__timeline-description">
-												J’ai terminé mes études secondaires dans l’option
-												informatique, où l’on apprenait à faire de la maintenance
-												système et à réparer les ordinateurs.
-											</p>
-										</article>
-										<span class="about-cv__timeline-year content-1">2012</span>
-									</div>
+										<p class="about-cv__timeline-description">
+											J’ai terminé mes études secondaires dans l’option informatique, où l’on apprenait à faire de la maintenance système et à réparer les ordinateurs.
+										</p>
+									</article>
+									<span class="about-cv__timeline-year content-1">2012</span>
 								</div>
-								<a href="#" class="about-cv__download"><span>Télécharger mon CV</span></a>
-							</section>
+							</div>
+							<a href="#" class="about-cv__download"><span>Télécharger mon CV</span></a>
+						</section>
 
-							<section class="skills">
-								<h2 aria-level="2" class="skills__section-title">Mes compétences</h2>
-								<div class="skills__wrap">
-									<article class="skills__article">
-										<h3 aria-level="3" class="skills__title" title="HyperText Markup Language"><abbr>html</abbr></h3>
-										<div class="skills__progress">
-											<div class="skills__progress-bar skills__progress-bar--html" role="progressbar" aria-valuenow="95" aria-valuemax="100"></div>
-										</div>
-										<div class="skills__content">
-											<div class="skills__figure skills__figure--html"></div>
-											<div class="skills__aside">
-												<div class="skills__level">
-													<span class="skills__level__label">Niveau&nbsp;:</span>
-													<span class="skills__level__content">Expert</span>
-												</div>
-												<div class="skills__affinity">
-													<span class="skills__level__label">Affinité&nbsp;:</span>
-													<span class="skills__level__cotation"><img src="./img/svg/heart4.svg" alt="4 sur 5"></span>
-												</div>
-											</div>
-											<p class="skills__description" title="95%">
-												J’utilise le langage HTML quotidiennement.
-												Je le maîtrise parfaitement, en respectant les contraintes du <b>W3C</b>,
-												du <b>WAI-ARIA</b> et d’<b>Anysurfer</b>. Je suis très attentif à l’accessibilité,
-												j’utilise les micros-datas et je nomme mes classes à l’aide de la <b>syntaxe BEM</b>.
-											</p>
-
-										</div>
-									</article>
-
-									<article class="skills__article">
-										<h3 aria-level="3" class="skills__title" title="Cascading Style Sheets"><abbr>css</abbr></h3>
-										<div class="skills__progress" title="95%">
-											<div class="skills__progress-bar skills__progress-bar--css" role="progressbar" aria-valuenow="95" aria-valuemax="100"></div>
-										</div>
-										<div class="skills__content">
-											<div class="skills__figure skills__figure--css"></div>
-											<div class="skills__aside">
-												<div class="skills__level">
-													<span class="skills__level__label">Niveau&nbsp;:</span>
-													<span class="skills__level__content">Expert</span>
-												</div>
-												<div class="skills__affinity">
-													<span class="skills__level__label">Affinité&nbsp;:</span>
-													<span class="skills__level__cotation"><img src="./img/svg/heart5.svg" alt="5 sur 5"></span>
-												</div>
-											</div>
-											<p class="skills__description">
-												Je le maîtrise parfaitement le CSS, tout en faisant attention à la compatibilité
-												avec les anciens navigateurs. J’utilise des pré-processeurs, comme <b>SASS</b> ou <b>STYLUS</b>,
-												tout en utilisant la méthode <b>ITCSS</b> pour ordonner mes feuilles de styles.
-												J’aime utiliser l’approche <b>mobile-first</b>.
-											</p>
-
-										</div>
-									</article>
-
-									<article class="skills__article">
-										<h3 aria-level="3" class="skills__title">Javascript</h3>
-										<div class="skills__progress" title="70%">
-											<div class="skills__progress-bar skills__progress-bar--js" role="progressbar" aria-valuenow="70" aria-valuemax="100"></div>
-										</div>
-										<div class="skills__content">
-											<div class="skills__figure skills__figure--js"></div>
-											<div class="skills__aside">
-												<div class="skills__level">
-													<span class="skills__level__label">Niveau&nbsp;:</span>
-													<span class="skills__level__content">Initié</span>
-												</div>
-												<div class="skills__affinity">
-													<span class="skills__level__label">Affinité&nbsp;:</span>
-													<span class="skills__level__cotation"><img src="./img/svg/heart5.svg" alt="5 sur 5"></span>
-												</div>
-											</div>
-											<p class="skills__description">
-												J’adore le Javascript. Je l’utilise régulièrement pour rendre mes projets plus
-												dynamique ou pour améliorer l’éxpérience utilisateur. J’utilise aussi la technologie
-												<b>CANVAS</b> et je m’interesse de près à <b>Node.js</b>. Je sais aussi utiliser la
-												librairie <b>Jquery</b>.
-											</p>
-
-										</div>
-									</article>
-
-									<article class="skills__article">
-										<h3 aria-level="3" class="skills__title" title="Hypertext Preprocessor"><abbr>php</abbr></h3>
-										<div class="skills__progress" title="50%">
-											<div class="skills__progress-bar skills__progress-bar--php" role="progressbar" aria-valuenow="70" aria-valuemax="100"></div>
-										</div>
-										<div class="skills__content">
-											<div class="skills__figure skills__figure--php"></div>
-											<div class="skills__aside">
-												<div class="skills__level">
-													<span class="skills__level__label">Niveau&nbsp;:</span>
-													<span class="skills__level__content skills__level__content--php">Débutant</span>
-												</div>
-												<div class="skills__affinity">
-													<span class="skills__level__label">Affinité&nbsp;:</span>
-													<span class="skills__level__cotation"><img src="./img/svg/heart3.svg" alt="3 sur 5"></span>
-												</div>
-											</div>
-											<p class="skills__description">
-												Je découvre actuellement le PHP. Mon niveau est variable.
-												J’ai les compétences afin de créer une <b>interface d’administration</b>,
-												ou pour gérer les scores d’un jeu.
-												J’ai une bonne compréhension de l’<b>architecture MVC</b>.
-											</p>
-
-										</div>
-									</article>
+						<section class="skills">
+							<h2 aria-level="2" class="skills__section-title">Mes compétences</h2>
+							<div class="skills__wrap">
+								<article class="skills__article">
+									<header class="skills__article__header">
+										<h3 class="skills__article__title">HTML / CSS</h3>
+									</header>
+									<p class="skills__article__paragraph">
+										Je maîtrise les langage HTML et CSS dans leurs dernières versions. J'utilise la syntaxe BEM, des préprocesseurs comme Stylus et Sass, ainsi que l'organisation de fichiers ITCSS.
+									</p>
+									<img src="./img/svg/heart5.svg" alt="Affinité&nbsp;: 5/5" class="skills__article__affinity">
+								</article>
+								<article class="skills__article">
+									<header class="skills__article__header">
+										<h3 class="skills__article__title">JAVASCRIPT</h3>
+									</header>
+									<p class="skills__article__paragraph">
+										Je maîtrise les langage HTML et CSS dans leurs dernières versions. J'utilise la syntaxe BEM, des préprocesseurs comme Stylus et Sass, ainsi que l'organisation de fichiers ITCSS.
+									</p>
+									<img src="./img/svg/heart5.svg" alt="Affinité&nbsp;: 5/5" class="skills__article__affinity">
+								</article>
+								<article class="skills__article">
+									<header class="skills__article__header">
+										<h3 class="skills__article__title">PHP</h3>
+									</header>
+									<p class="skills__article__paragraph">
+										Je maîtrise les langage HTML et CSS dans leurs dernières versions. J'utilise la syntaxe BEM, des préprocesseurs comme Stylus et Sass, ainsi que l'organisation de fichiers ITCSS.
+									</p>
+									<img src="./img/svg/heart5.svg" alt="Affinité&nbsp;: 5/5" class="skills__article__affinity">
+								</article>
+							</div>
+							<div class="cms">
+								<div class="cms__content">
+									<span class="cms__title">Wordpress</span>
+									<img class="cms__img" src="./img/svg/wordress_logo.svg" alt="Logo de Wordpress" width="100" height="100">
+									<img class="cms__cote" src="./img/svg/app_4sur5.svg" title="4/5" alt="4 sur 5" width="86" height="15">
 								</div>
-								<div class="cms">
-									<div class="cms__content">
-										<span class="cms__title">Wordpress</span>
-										<img class="cms__img" src="./img/svg/wordress_logo.svg" alt="Logo de Wordpress" width="100" height="100">
-										<img class="cms__cote" src="./img/svg/app_4sur5.svg" title="4/5" alt="4 sur 5" width="86" height="15">
-									</div>
-									<div class="cms__content">
-										<span class="cms__title">Prestashop</span>
-										<img class="cms__img" src="./img/svg/prestashop_logo.svg" alt="Logo de Prestashop" width="100" height="100">
-										<img class="cms__cote" src="./img/svg/app_3sur5.svg" title="3/5" alt="3 sur 5" width="86" height="15">
-									</div>
-									<div class="cms__content">
-										<span class="cms__title">Spip</span>
-										<img class="cms__img" src="./img/svg/spip_logo.svg" alt="Logo de Spip" width="100" height="100">
-										<img class="cms__cote" src="./img/svg/app_3sur5.svg" title="3/5" alt="3 sur 5" width="86" height="15">
-									</div>
+								<div class="cms__content">
+									<span class="cms__title">Prestashop</span>
+									<img class="cms__img" src="./img/svg/prestashop_logo.svg" alt="Logo de Prestashop" width="100" height="100">
+									<img class="cms__cote" src="./img/svg/app_3sur5.svg" title="3/5" alt="3 sur 5" width="86" height="15">
 								</div>
-							</section>
-							<section class="apps">
-								<h2 class="apps__title-section" aria-level="2">Les applications que j'utilise&nbsp;:</h2>
-								<div class="apps__wrap">
-									<div class="apps__app">
-										<img class="apps__app__img" src="./img/svg/photoshop_logo.svg" width="80" height="80" alt="Logo de Adobe Photoshop">
-										<span class="apps__app__title">Photoshop</span>
-										<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
-									</div>
-
-									<div class="apps__app">
-										<img class="apps__app__img" src="./img/svg/illustrator_logo.svg" width="80" height="80" alt="Logo de Adobe Illustrator">
-										<span class="apps__app__title">Illustrator</span>
-										<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
-									</div>
-
-									<div class="apps__app">
-										<img class="apps__app__img" src="./img/svg/animate_logo.svg" width="80" height="80" alt="Logo de Adobe Animate CC">
-										<span class="apps__app__title">Animate CC</span>
-										<img src="./img/svg/app_3sur5.svg" alt="3 sur 5" title="3/5" class="apps__app__cote">
-									</div>
-
-									<div class="apps__app">
-										<div class="apps__app__img apps__app__img--sketch apps__app__img--png" width="80" height="80" title="Logo de Sketch App"></div>
-										<span class="apps__app__title">Sketch</span>
-										<img src="./img/svg/app_5sur5.svg" alt="5 sur 5" title="5/5" class="apps__app__cote">
-									</div>
-
-									<div class="apps__app">
-										<div class="apps__app__img apps__app__img--phpstorm apps__app__img--png" width="80" height="80" title="Logo de PHPstorm"></div>
-										<span class="apps__app__title">PhpStorm</span>
-										<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
-									</div>
-
-
-
+								<div class="cms__content">
+									<span class="cms__title">Spip</span>
+									<img class="cms__img" src="./img/svg/spip_logo.svg" alt="Logo de Spip" width="100" height="100">
+									<img class="cms__cote" src="./img/svg/app_3sur5.svg" title="3/5" alt="3 sur 5" width="86" height="15">
+								</div>
+							</div>
+						</section>
+						<section class="apps">
+							<h2 class="apps__title-section" aria-level="2">Les applications que j'utilise&nbsp;:</h2>
+							<div class="apps__wrap">
+								<div class="apps__app">
+									<img class="apps__app__img" src="./img/svg/photoshop_logo.svg" width="80" height="80" alt="Logo de Adobe Photoshop">
+									<span class="apps__app__title">Photoshop</span>
+									<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
 								</div>
 
-							</section>
+								<div class="apps__app">
+									<img class="apps__app__img apps__app__img--illustrator" src="./img/svg/illustrator_logo.svg" width="80" height="80" alt="Logo de Adobe Illustrator">
+									<span class="apps__app__title">Illustrator</span>
+									<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
+								</div>
 
-						<footer class="footer">
-							<div class="footer__follow-me">
-								<h2 class="footer__follow-me__title">Suivez-moi</h2>
-								<!--FACEBOOK ICON -->
-								<div class="footer__follow-me__container">
-									<div class="icons">
-										<a href="http://facebook.com" class="icons__link" target="_blank">
+								<div class="apps__app">
+									<img class="apps__app__img " src="./img/svg/animate_logo.svg" width="80" height="80" alt="Logo de Adobe Animate CC">
+									<span class="apps__app__title">Animate CC</span>
+									<img src="./img/svg/app_3sur5.svg" alt="3 sur 5" title="3/5" class="apps__app__cote">
+								</div>
+
+								<div class="apps__app">
+									<div class="apps__app__img apps__app__img--sketch apps__app__img--png" width="80" height="80" title="Logo de Sketch App"></div>
+									<span class="apps__app__title">Sketch</span>
+									<img src="./img/svg/app_5sur5.svg" alt="5 sur 5" title="5/5" class="apps__app__cote">
+								</div>
+
+								<div class="apps__app">
+									<div class="apps__app__img apps__app__img--phpstorm apps__app__img--png" width="80" height="80" title="Logo de PHPstorm"></div>
+									<span class="apps__app__title">PhpStorm</span>
+									<img src="./img/svg/app_4sur5.svg" alt="4 sur 5" title="4/5" class="apps__app__cote">
+								</div>
+
+
+
+							</div>
+
+						</section>
+					</main>
+					<footer class="footer">
+						<div class="footer__follow-me">
+							<h2 class="footer__follow-me__title">Suivez-moi</h2>
+							<!--FACEBOOK ICON -->
+							<div class="footer__follow-me__container">
+								<div class="icons">
+									<a href="http://facebook.com" class="icons__link" target="_blank">
 											Facebook
 											<div class="icons__container">
 												<svg class="icons__container__icon" width="56" height="56"
@@ -304,10 +229,10 @@
 												<div class="icons__container__hover icons__container__hover-fb"></div>
 											</div>
 										</a>
-									</div>
-									<!-- GITHUB ICON -->
-									<div class="icons">
-										<a href="http://github.com/jimmylet" class="icons__link" target="_blank">
+								</div>
+								<!-- GITHUB ICON -->
+								<div class="icons">
+									<a href="http://github.com/jimmylet" class="icons__link" target="_blank">
 											Github
 											<div class="icons__container">
 												<svg class="icons__container__icon" width="56" height="56"
@@ -321,10 +246,10 @@
 												<div class="icons__container__hover icons__container__hover-github"></div>
 											</div>
 										</a>
-									</div>
-									<!-- BEHANCE ICON -->
-									<div class="icons">
-										<a href="http://github.com/jimmylet" class="icons__link" target="_blank">
+								</div>
+								<!-- BEHANCE ICON -->
+								<div class="icons">
+									<a href="http://github.com/jimmylet" class="icons__link" target="_blank">
 											Behance
 											<div class="icons__container">
 												<svg class="icons__container__icon" width="56" height="56"
@@ -340,10 +265,10 @@
 												<div class="icons__container__hover icons__container__hover-behance"></div>
 											</div>
 										</a>
-									</div>
-									<!-- TWITTER ICON -->
-									<div class="icons">
-										<a href="http://github.com/jimmylet" class="icons__link" target="_blank">
+								</div>
+								<!-- TWITTER ICON -->
+								<div class="icons">
+									<a href="http://github.com/jimmylet" class="icons__link" target="_blank">
 											Twitter
 											<div class="icons__container">
 												<svg class="icons__container__icon" width="56" height="56"
@@ -357,77 +282,75 @@
 												<div class="icons__container__hover icons__container__hover-twitter"></div>
 											</div>
 										</a>
-									</div>
 								</div>
 							</div>
-							<div class="copyright">
-									<span class="copyright__text">
+						</div>
+						<p class="footer__contact">
+							<span class="footer__contact__label">Email&nbsp;:</span> <a href="mailto:jimmy@letecheur.me" class="fotter__contact__email">jimmy@letecheur.me</a>
+						</p>
+						<div class="copyright">
+							<span class="copyright__text">
 										© Design by <a class="copyright__link" href="index.html">Jimmy Letecheur</a>
 									</span>
-									<span class="copyright__text">
-										<a class="copyright__link" href="./html/contact.html">Contactez-moi</a>
+							<span class="copyright__text">
+										<a class="copyright__link" href="mailto:jimmy@letecheur.me">Contactez-moi</a>
 									</span>
-							</div>
-						</footer>
-					</div>
+						</div>
+					</footer>
 				</div>
-				<div class="site-cache" id="site-cache"></div>
 			</div>
+			<div class="site-cache" id="site-cache"></div>
 		</div>
-		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
-		<script type="text/javascript" src="scripts/retina.min.js"></script>
-		<script type="text/javascript" src="scripts/menu-res.js"></script>
-		<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				// Fait par moi, mettre visibility hidden à tous les blocks
-				$(".about-cv__timeline-block, .skills__content").css("visibility","hidden");
-				$(".skills__progress").addClass("progress-js--active");
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="scripts/retina.js"></script>
+	<script type="text/javascript" src="scripts/menu-res.js"></script>
+	<script type="text/javascript" src="scripts/jquery.viewportchecker.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			// Fait par moi, mettre visibility hidden à tous les blocks
+			$(".about-cv__timeline-block, .skills__content").css("visibility", "hidden");
+			$(".skills__progress").addClass("progress-js--active");
 
-				$('.about-cv__timeline-content, .about-cv__timeline-year').viewportChecker({
-					classToAdd: 'bounce-in',
-					offset: 150,
-					repeat: false,
-					callbackFunction: function(elem, action){}
-				});
-
-				$('.about-cv__timeline-circle').viewportChecker({
-					classToAdd: 'circlescale',
-					offset: 150,
-					repeat: false,
-					callbackFunction: function(elem, action){}
-				});
-				/*$('.about-cv__timeline-content--odd').viewportChecker({
-					classToAdd: 'bounce-reverse',
-					offset: 150,
-					repeat: false,
-					callbackFunction: function(elem, action){}
-				});*/
-				$('.skills__content').viewportChecker({
-					classToAdd: 'animated flipInX',
-					offset: 150,
-					repeat: false,
-					callbackFunction: function(elem, action){}
-				});
-				$('.skills__progress-bar--html, .skills__progress-bar--css').viewportChecker({
-					classToAdd: 'htmlanim',
-					offset: 100,
-					repeat: false,
-					callbackFunction: function(elem, action){}
-				});
-				$('.skills__progress-bar--js').viewportChecker({
-					classToAdd: 'jsanim',
-					offset: 100,
-					repeat: false,
-					callbackFunction: function(elem, action){}
-				});
-				$('.skills__progress-bar--php').viewportChecker({
-					classToAdd: 'phpanim',
-					offset: 100,
-					repeat: false,
-					callbackFunction: function(elem, action){}
-				});
+			$('.about-cv__timeline-content, .about-cv__timeline-year').viewportChecker({
+				classToAdd: 'bounce-in',
+				offset: 150,
+				repeat: false,
+				callbackFunction: function(elem, action) {}
 			});
-		</script>
-	</body>
+
+			$('.about-cv__timeline-circle').viewportChecker({
+				classToAdd: 'circlescale',
+				offset: 150,
+				repeat: false,
+				callbackFunction: function(elem, action) {}
+			});
+			$('.skills__content').viewportChecker({
+				classToAdd: 'animated flipInX',
+				offset: 150,
+				repeat: false,
+				callbackFunction: function(elem, action) {}
+			});
+			$('.skills__progress-bar--html, .skills__progress-bar--css').viewportChecker({
+				classToAdd: 'htmlanim',
+				offset: 100,
+				repeat: false,
+				callbackFunction: function(elem, action) {}
+			});
+			$('.skills__progress-bar--js').viewportChecker({
+				classToAdd: 'jsanim',
+				offset: 100,
+				repeat: false,
+				callbackFunction: function(elem, action) {}
+			});
+			$('.skills__progress-bar--php').viewportChecker({
+				classToAdd: 'phpanim',
+				offset: 100,
+				repeat: false,
+				callbackFunction: function(elem, action) {}
+			});
+		});
+	</script>
+</body>
+
 </html>

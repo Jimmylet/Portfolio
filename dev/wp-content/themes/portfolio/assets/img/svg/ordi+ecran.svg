@@ -1,0 +1,49 @@
+<svg width="248" height="143" viewBox="0 0 248 143" xmlns="http://www.w3.org/2000/svg">
+  <title>
+    ordi+ecran
+  </title>
+  <g fill="none" fill-rule="evenodd">
+    <g>
+      <g>
+        <g font-weight="bold" font-family="Bariol-Bold, Bariol" letter-spacing=".503" fill="#FFF" font-size="20" fill-opacity=".6">
+          <text transform="rotate(-6 410.242 -676.712)">
+            <tspan x="36.427" y="19.29">HTML5</tspan>
+          </text>
+          <text transform="rotate(6 -224.108 770.08)">
+            <tspan x="1.376" y="54.078">Javascript</tspan>
+          </text>
+          <text transform="rotate(-11 274.538 -285.132)">
+            <tspan x="59.259" y="89.128">UX</tspan>
+          </text>
+        </g>
+        <g font-weight="bold" font-family="Bariol-Bold, Bariol" letter-spacing=".503" fill="#FFF" font-size="20" fill-opacity=".6">
+          <text transform="rotate(-17 160.52 -267.86)">
+            <tspan x="43.722" y="104">CSS3</tspan>
+          </text>
+          <text transform="rotate(9 22.743 767.914)">
+            <tspan x="1.829" y="63.219">JQUERY</tspan>
+          </text>
+          <text transform="rotate(-8 182.725 -771.687)">
+            <tspan x="2.588" y="22.5">Webdesign</tspan>
+          </text>
+        </g>
+        <g>
+          <path d="M126.513 132.525H26.475V6.84c0-3.778 3.062-6.84 6.84-6.84H214.58c3.78 0 6.84 3.062 6.84 6.84v125.685h-94.907z" fill="#3D3D3D"/>
+          <path d="M247.07 132.525c0 5.666-4.505 10.26-10.064 10.26H10.89c-5.56 0-10.066-4.594-10.066-10.26H247.07z" fill="#E9E9E9"/>
+          <polygon fill="#00BAC8" points="32 125.845 216.687 125.845 216.687 7 32 7"/>
+          <path d="M141.05 132.525c0 1.89-1.564 3.42-3.495 3.42H110.34c-1.928 0-3.494-1.53-3.494-3.42h34.205z" fill="#B3B2B2"/>
+        </g>
+        <g transform="translate(47 20)" fill="#009FBA">
+          <rect x="59.911" y="89.937" width="29.619" height="11.881"/>
+          <rect x="100.35" width="49.091" height="7.5"/>
+          <rect x="119.823" y="89.937" width="29.619" height="11.881"/>
+          <rect width="80" height="15"/>
+          <rect y="25.124" width="149.441" height="34.659"/>
+          <rect y="69.906" width="149.441" height="4.612"/>
+          <rect x="34" y="79" width="92.918" height="4.612"/>
+          <rect x="4.381" y="89.937" width="29.619" height="11.931"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

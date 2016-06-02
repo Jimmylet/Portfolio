@@ -1,0 +1,255 @@
+.portfolio-intro
+  position: relative
+  background color-welcome-bckg
+  padding 0 3em
+  text-align center
+  &__title
+    display: inline-block
+    font-weight: 100
+    margin 13rem 0 0
+    font-size: 3.329rem
+    letter-spacing: 0.91px
+    text-transform: uppercase
+    color color-text-white
+    &:after
+      display block
+      font-size: 2rem
+      margin 2rem 0 3rem
+      content "----------"
+  &__text
+    font-family ralewayfont
+    font-size: 2.06em
+    color: color-text-white
+    letter-spacing: 0.55px
+    line-height: 1.3em
+    max-width 66.2rem
+    margin: 0 auto
+    padding-bottom 15rem
+    font-weight: 100
+  &__bottomarrow
+    position: absolute
+    bottom: 3em
+    margin-left: auto
+    margin-right: auto
+    left: 0
+    right: 0
+
+/*
+.portfolio-list
+  padding 10rem 3rem
+  &__workcol
+    position: relative
+    width: 100%
+  &__item
+    padding 1rem
+  &__link
+    transition: all 0.2s ease-in-out
+  &__overlay
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    display: none
+    cursor: pointer
+    text-align: center
+    z-index: 9
+  &__caption
+    position: absolute;
+    top: 35%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    margin-left: auto
+    margin-right: auto
+    left: 0
+    right: 0
+  &__img
+    max-width 100%
+    height auto
+  &__title
+    font-family Raleway
+    text-transform: uppercase
+    font-size 3em
+    font-weight: bold
+    color #FFF
+    display: block
+    margin-bottom 2rem
+  &__desc
+    font-size 2em
+    display: block
+    margin-bottom 1rem
+  &__techno
+    display: block
+    font-size 2em
+
+.portfolio-list__item:hover section.portfolio-list__overlay
+  display block
+.portfolio-list__item .portfolio-list__overlay:hover
+  background-color rgba(52,69,87,0.9)
+  transition: background-color 0.3s ease-in-out;
+.portfolio-list__overlay:hover .portfolio-list__caption
+  transition: opacity 0.6s ease-in-out;
+  opacity: 1
+
+
+!************************************\
+  ANIMATION SWAP
+\************************************!
+*/
+.js--active
+  .portfolio-intro__word
+    display none
+
+  .portfolio-intro__swap
+    width 0
+    vertical-align top
+
+  .portfolio-intro__swap > span
+    position: absolute
+    color color-text-white
+    font-weight normal
+
+
+/************************************\
+  ANIMATION FADEINUP
+\************************************/
+
+@keyframes fadeInUp
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+
+@keyframes fadeOpacity
+  from{
+    opacity 0;
+  }
+  to{
+    opacity 1;
+  }
+
+.js--active
+  .work
+  .work-article__title
+    opacity 0
+  .fadeInUp
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  .fadeOpacity
+    animation-name: fadeOpacity
+    animation-duration .5s
+    animation-fill-mode: both;
+
+
+/************************************\
+  NEWEST VERSION
+\************************************/
+
+.work-article
+  background-color color-light-blue
+  padding 15rem 3rem 0 3rem
+  &__title
+    font-family ralewayfont
+    font-size: 3.33em
+    color: color-text-white
+    letter-spacing: 0.91px
+    text-align center
+    margin-bottom: 3rem
+
+.work-article:nth-child(odd)
+  background-color color-introduction-col2
+
+.work
+  &__browser
+    min-height 44rem
+    background-color grey
+    display block
+    border-radius .6rem .6rem 0 0
+    overflow hidden
+    z-index 1
+  &__topbar
+    height 2.5rem
+    width 100%
+    background-color #DCDCDC
+    box-shadow: 0 1px 0 rgba(0,0,0,.1)
+    z-index 2
+    &__circles
+      display inline-block
+      width 1.3rem
+      height 1.3rem
+      border-radius 50%
+      border 1px solid #FFC12F - 5%
+      background-color #FFC12F
+      position: absolute
+      left: 3.8rem
+      top .60rem
+      &:after
+      &:before
+        content "";
+        display inline-block
+        width 1.3rem
+        height 1.3rem
+        border-radius 50%
+        border 1px solid color-text-white - 15%
+        background-color #F0F0F0
+        top: -.1rem
+      &:before
+        border 1px solid #FE625A - 5%
+        background-color #FE625A
+        position: absolute
+        left -2.1rem
+      &:after
+        border 1px solid #29CF42 - 5%
+        background-color #29CF42
+        position: absolute
+        right -2.1rem
+
+
+
+@media screen and (min-width: 876px)
+  .work
+    &__hovereffect
+      width: 101%
+      height: 44rem;
+      background: #25282b
+      opacity 0
+      z-index 100
+      transition .3s ease-in
+      &:before
+        content ""
+        width: 50px
+        height: 27px
+        display block
+        background url(../img/eye.svg) no-repeat
+        position: absolute
+        top: 48%
+        margin-left: auto
+        margin-right: auto
+        left: 0
+        right: 0
+    &__img
+      position absolute
+      left: 0
+      transition 3s linear
+      z-index -1
+      width 100%
+      &-baobab
+        bottom -2696px // Hauteur de l'image - hauteur de la boite (418)
+      &-caniuse // 1513 - 418
+        bottom -1095px
+      &-nicolasdestael
+        bottom -687px
+
+
+.work__browser:hover .work__hovereffect
+  opacity .6
+  transition .5s ease-in
+.work__browser:hover .work__img
+  bottom 0

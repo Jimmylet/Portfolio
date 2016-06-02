@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="169px" height="106px" viewBox="0 0 169 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7 (28169) - http://www.bohemiancoding.com/sketch -->
+    <title>Ordinateur</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 111.088 174 111.088 174 1 0 1"></polygon>
+    </defs>
+    <g id="Accueil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Accueil_Desktop_HD-Copy" transform="translate(-1065.000000, -2750.000000)">
+            <g id="Ordinateur" transform="translate(1065.000000, 2749.152019)">
+                <g id="Group-5" transform="translate(15.000000, 0.088000)" fill="#1A2137">
+                    <path d="M138.7597,93.0459 L138.7597,5.0979 C138.7597,2.7949 137.0997,0.9119 135.0667,0.9119 L3.9337,0.9119 C1.9027,0.9119 0.2407,2.7949 0.2407,5.0979 L0.2407,93.0459 L138.7597,93.0459 Z" id="Fill-3"></path>
+                </g>
+                <path d="M148.0801,82.8497 C148.0801,84.4687 146.5531,85.7957 144.6871,85.7957 L24.3121,85.7957 C22.4471,85.7957 20.9221,84.4687 20.9221,82.8497 L20.9221,10.4127 C20.9221,8.7917 22.4471,7.4657 24.3121,7.4657 L144.6871,7.4657 C146.5531,7.4657 148.0801,8.7917 148.0801,10.4127 L148.0801,82.8497 Z" id="Fill-6" fill="#3A4350"></path>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-9"></g>
+                <polygon id="Fill-8" fill="#EFEDEE" mask="url(#mask-2)" points="0 99.809 169 99.809 169 93.134 0 93.134"></polygon>
+                <path d="M84.5,99.8087 L0,99.8087 C0,99.8087 3.051,106.0877 13.457,106.0877 L155.545,106.0877 C165.949,106.0877 169,99.8087 169,99.8087 L84.5,99.8087 Z" id="Fill-10" fill="#E0E0E0" mask="url(#mask-2)"></path>
+                <path d="M85.748,93.1339 L67.1,93.1339 C67.1,93.1339 67.771,96.7969 70.068,96.7969 L85.748,96.7969 L101.426,96.7969 C103.723,96.7969 104.396,93.1339 104.396,93.1339 L85.748,93.1339 Z" id="Fill-11" fill="#D3D1D2" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

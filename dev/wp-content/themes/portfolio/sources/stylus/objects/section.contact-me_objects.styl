@@ -1,0 +1,52 @@
+.contact-me
+  &__img
+    display none
+  &__section-link
+    position: relative
+    min-height 28.1rem
+    &__link
+      position: absolute
+      margin-left auto
+      margin-right auto
+      left: 0
+      right: 0
+      top 40%
+  &__section-subtext
+    position: absolute
+    left: 0
+    right: 0
+    text-align center
+    top 63%
+
+
+
+@media screen and (min-width: 700px)
+  .contact-me
+    position: relative
+    height: 100%
+    &:after
+      content: "";
+      display: block;
+      clear: both;
+    &__img
+      display inline-block
+      vertical-align bottom
+      min-width: 50%
+      max-width 50%
+      height: auto
+    &__section-link
+      overflow: hidden
+      display inline-block
+      min-width 50%
+      max-width 50%
+      position: absolute
+      height: 100%
+      text-align: center
+      &__link
+        position: static
+        margin-top 35%
+    &__section-subtext
+      position: static
+      display block
+      margin-top 1rem
+
