@@ -29,10 +29,14 @@
 				</a>
 				<nav class="menu">
 					<h2 class="menu__title" aria-level="2">Menu de navigation</h2>
-					<?php foreach (b_get_menu_items('main-nav') as $navItem): ?>
-	            <a href="<?php echo $navItem->url;?>" class="menu__item <?php echo $navItem->isCurrent ? "active" : "" ;?>  "><?php echo $navItem->label;?></a>
-					<?php endforeach; ?>
+					<?php
+						global $post;
+						$thePostID = $post->ID;
+					?>
 
+					<?php foreach (b_get_menu_items('main-nav') as $navItem): ?>
+	            <a href="<?php echo $navItem->url;?>" class="menu__item <?php echo $thePostID == $navItem->id ? "active" : "" ;?>  "><?php echo $navItem->label;?></a>
+					<?php endforeach; ?>
 					<a href="mailto:jimmy@letecheur.me" class="menu__item menu__item-mail">
 						<span class="menu__item__logo">
 								<svg width="33" height="19" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">

@@ -82,28 +82,28 @@ $easy_options = get_option("easy_page_options");
               <article class="home-content__card">
                 <img src="<?php echo get_template_directory_uri() . '/assets/img/svg/logo_design.svg';?>" alt="" class="home-content__card__img" width="140" height="140">
                 <h3 aria-level="3" class="home-content__card__title">
-                  Un design remarquable.
+                  <?php echo the_field("home_design_title"); ?>
                 </h3>
                 <p class="home-content__card__paragraph">
-                  Grâce à ma veille active et à mon sens du détail, je façonne le design de votre site web à l’image de votre marque.
+                  <?php echo the_field("home_design_content"); ?>
                 </p>
               </article>
               <article class="home-content__card">
                 <img src="<?php echo get_template_directory_uri() . '/assets/img/svg/logo_code.svg';?>" alt="" class="home-content__card__img" width="140" height="140">
                 <h3 aria-level="3" class="home-content__card__title">
-                  Une conception respectueuse.
+                  <?php echo the_field("home_dev_title"); ?>
                 </h3>
                 <p class="home-content__card__paragraph">
-                  Je développe des sites performants, créatifs et accessibles basés sur le respect des bonnes pratiques.
+                  <?php echo the_field("home_dev_content"); ?>
                 </p>
               </article>
               <article class="home-content__card">
                 <img src="<?php echo get_template_directory_uri() . '/assets/img/svg/logo_mobilefirst.svg';?>" alt="" class="home-content__card__img" width="140" height="140">
                 <h3 aria-level="3" class="home-content__card__title">
-                  Un produit mobile et efficient.
+                  <?php echo the_field("home_mf_title"); ?>
                 </h3>
                 <p class="home-content__card__paragraph">
-                  J’intègre «&nbsp;mobile first&nbsp;» tout en accordant une attention particulière à l’expérience utilisateur.
+                  <?php echo the_field("home_mf_content"); ?>
                 </p>
               </article>
             </div>

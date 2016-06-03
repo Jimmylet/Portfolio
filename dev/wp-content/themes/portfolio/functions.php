@@ -38,13 +38,14 @@ function b_get_menu_items( $location )
       foreach (wp_get_nav_menu_items( b_get_menu_id($location) ) as $obj) {
             // Si vous avoir un contrôle sur les liens affichés, c'est ici. (Par exemple: mettre $item->isCurrent à true|false)
             $item = new stdClass();
-            $item->isCurrent = true;
+            $item->id = $obj->object_id;
             $item->url = $obj->url;
             $item->label = $obj->title;
             array_push($navItems, $item);
       }
       return $navItems;
 }
+
 
 add_filter('menu__item' , 'active' , 10 , 2);
 function special_nav_class($classes, $item){
