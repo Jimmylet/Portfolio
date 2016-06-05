@@ -218,8 +218,7 @@ $easy_options = get_option("easy_page_options");
         </main>
 
 <?php get_footer(); ?>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/scripts/jquery.viewportchecker.js';?>"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/scripts/jquery.stellar.js';?>"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/scripts/output.min.js';?>"></script>
 <script>
   $(document).ready(function() {
     react_to_window();
