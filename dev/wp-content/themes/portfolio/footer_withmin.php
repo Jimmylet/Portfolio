@@ -1,7 +1,7 @@
 <?php $easy_options = get_option("easy_page_options"); ?>
 
 <footer class="footer">
-  <div class="footer__follow-me">
+  <section class="footer__follow-me">
     <h2 class="footer__follow-me__title">Suivez-moi</h2>
     <!--FACEBOOK ICON -->
     <div class="footer__follow-me__container">
@@ -75,7 +75,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </section>
   <p class="footer__contact">
     <span class="footer__contact__label">Email&nbsp;:</span> <a href="mailto:jimmy@letecheur.me" class="fotter__contact__email">jimmy@letecheur.me</a>
   </p>
@@ -96,17 +96,3 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/scripts/output.min.js';?>"></script>
-<script type="text/javascript">
-  (function($){
-
-    $('#header__icon').click(function(e){
-        e.preventDefault();
-        $('body').toggleClass('with--sidebar');
-    });
-
-    $('#site-cache').click(function(e){
-        $('body').removeClass('with--sidebar');
-    })
-
-  })(jQuery);
-</script>

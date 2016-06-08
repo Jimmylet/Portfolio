@@ -176,7 +176,7 @@ $easy_options = get_option("easy_page_options");
               </article>
             </div>
             <div class="whati__box whati__wrap-parralax">
-              <img class="whati__clavier" width="218" height="110"> data-stellar-ratio="0.85" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/clavier.svg';?>" alt="">
+              <img class="whati__clavier" width="218" height="110" data-stellar-ratio="0.85" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/clavier.svg';?>" alt="">
               <img class="whati__airmail" width="80" height="59" data-stellar-ratio="1.25" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/airmail.svg';?>" alt="">
               <img class="whati__ipad" width="121" height="137" data-stellar-ratio="0.85" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/ipad.svg';?>" alt="">
 
@@ -218,7 +218,6 @@ $easy_options = get_option("easy_page_options");
         </main>
 
 <?php get_footer(); ?>
-<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/scripts/output.min.js';?>"></script>
 <script>
   $(document).ready(function() {
     react_to_window();
@@ -249,12 +248,6 @@ $easy_options = get_option("easy_page_options");
     }
   }
 
-  $("body").addClass("js--active");
-  $('.whati__cards-container').viewportChecker({
-    classToAdd: 'anim-cards',
-    offset: 300,
-    repeat: false,
-  });
 
   $('.introduction__computer-container').viewportChecker({
     classToAdd: 'anim-computer',

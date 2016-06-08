@@ -250,13 +250,6 @@ $easy_options = get_option("easy_page_options");
     }
   }
 
-  $("body").addClass("js--active");
-  $('.whati__cards-container').viewportChecker({
-    classToAdd: 'anim-cards',
-    offset: 300,
-    repeat: false,
-  });
-
   $('.introduction__computer-container').viewportChecker({
     classToAdd: 'anim-computer',
     offset: 300,
