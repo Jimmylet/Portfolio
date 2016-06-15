@@ -176,8 +176,8 @@ $easy_options = get_option("easy_page_options");
               </article>
             </div>
             <div class="whati__box whati__wrap-parralax">
-              <img class="whati__clavier" width="218" height="110"> data-stellar-ratio="0.85" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/clavier.svg';?>" alt="">
-              <img class="whati__airmail" width="80" height="59" data-stellar-ratio="1.25" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/airmail.svg';?>" alt="">
+              <img class="whati__clavier" width="218" height="110" data-stellar-ratio="0.85" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/clavier.svg';?>" alt="">
+              <img class="whati__airmail" width="80" height="59" data-stellar-ratio="1.15" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/airmail.svg';?>" alt="">
               <img class="whati__ipad" width="121" height="137" data-stellar-ratio="0.85" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/ipad.svg';?>" alt="">
 
               <a class="whati__box__link" href="<?php the_permalink(8);?>"><span class="visuallyhidden">Vers le portfolio</span>
@@ -208,9 +208,9 @@ $easy_options = get_option("easy_page_options");
               </svg>
             </a>
 
-              <img class="whati__ordinateur" width="169" height="106" data-stellar-ratio="0.9" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/ordinateur.svg';?>" alt="">
-              <img class="whati__souris" width="48" height="74" data-stellar-ratio="1.25" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/souris.svg';?>" alt="">
-              <img class="whati__telephone" width="59" height="76" data-stellar-ratio="0.85" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/telephone.svg';?>" alt="">
+              <img class="whati__ordinateur" width="169" height="106" data-stellar-ratio="0.95" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/ordinateur.svg';?>" alt="">
+              <img class="whati__souris" width="48" height="74" data-stellar-ratio="1.10" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/souris.svg';?>" alt="">
+              <img class="whati__telephone" width="59" height="76" data-stellar-ratio="0.95" src="<?php echo get_template_directory_uri() . '/assets/img/logo_home/telephone.svg';?>" alt="">
 
             </div>
 
@@ -249,14 +249,17 @@ $easy_options = get_option("easy_page_options");
       }
     }
   }
-
   $('.introduction__computer-container').viewportChecker({
     classToAdd: 'anim-computer',
     offset: 300,
-    repeat: false,
-    callbackFunction: function (elem, action) {
-    }
+    repeat: false
   });
+  $("body").addClass("js--active");
+      $('.whati__cards-container').viewportChecker({
+        classToAdd: 'anim-cards',
+        offset: 300,
+        repeat: false,
+      });
 </script>
 </body>
 </html>
