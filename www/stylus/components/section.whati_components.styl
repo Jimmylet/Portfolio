@@ -42,7 +42,7 @@
       &:focus
       &:hover
         transition trans
-        background-color color-portolio-blue - 10%
+        background-color color-portolio-blue + 10%
 
 .whati__contact
   border-right 1px solid #B2B2B2
@@ -53,19 +53,25 @@
     &__button
       padding 0
       height 33px
-      width 184px
+      width 186px
+      background-color: inherit;
+      &:hover
+      &:focus
+        background-color: inherit;
       &__icon
         margin-right .4rem
+        transition trans
         &:before
           display inline-block
-          color inherit
+          color color-portolio-blue
           font-family: icon_font
-          font-size: 1.5em
+          font-size: 2.1em
           position relative
-          top 4px
+          top -3px
+          transition trans
         &:hover:before
         &:focus:before
-          color #FFF - 8%
+          color color-portolio-blue + 10%
         &-minfb:before
           content "\e909"
         &-mintw:before
@@ -146,4 +152,3 @@
     .whati
       *
         transform none
-
