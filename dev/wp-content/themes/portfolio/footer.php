@@ -76,15 +76,12 @@
       </div>
     </div>
   </section>
-  <p class="footer__contact">
-    <span class="footer__contact__label">Email&nbsp;:</span> <a href="mailto:jimmy@letecheur.me" class="fotter__contact__email">jimmy@letecheur.me</a>
-  </p>
   <div class="copyright">
       <span class="copyright__text">
         © Design by <a class="copyright__link" href="<?php get_home_url();?>">Jimmy Letecheur</a>
       </span>
       <span class="copyright__text">
-        <a class="copyright__link" href="mailto:jimmy@letecheur.me">Contactez-moi</a>
+        <a class="copyright__link" href="<?php echo the_permalink('206'); ?>">Contactez-moi</a>
       </span>
   </div>
 </footer>

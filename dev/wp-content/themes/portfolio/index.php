@@ -129,7 +129,7 @@ $easy_options = get_option("easy_page_options");
                 <h3 aria-level="3" class="whati__card__title">Lisez mon blog</h3>
                 <p class="whati__card__text">J’écris des choses qui pourraient peut-être vous
                   interesser</p>
-                <a href="#" class="whati__card__button whati__card__button-blog">Aller au
+                <a href="<?php echo the_permalink('10'); ?>" class="whati__card__button whati__card__button-blog">Aller au
                   blog</a>
               </article>
               <article class="whati__card whati__contact">
