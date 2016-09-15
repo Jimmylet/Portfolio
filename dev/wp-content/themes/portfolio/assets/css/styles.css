@@ -262,47 +262,6 @@ a {
     background-color: rgba(0,0,0,0.6);
   }
 }
-.menu__item-mail {
-  overflow: hidden;
-  position: relative;
-}
-.menu__item__logo {
-  display: inline-block;
-  position: absolute;
-  left: 70px;
-  top: 5px;
-  -webkit-transform: translateX(-100px);
-      -ms-transform: translateX(-100px);
-          transform: translateX(-100px);
-  opacity: 0;
-  -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: -webkit-transform 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: transform 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: transform 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94), -webkit-transform 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-}
-.menu__item__txt {
-  display: inline-block;
-  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: -webkit-transform 0.2s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: transform 0.2s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: transform 0.2s cubic-bezier(0.87, 0.13, 0.37, 0.94), -webkit-transform 0.2s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-}
-.menu__item-mail:hover .menu__item__logo {
-  -webkit-transform: translateX(0px);
-      -ms-transform: translateX(0px);
-          transform: translateX(0px);
-  opacity: 1;
-  -webkit-transition: 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-}
-.menu__item-mail:hover .menu__item__txt {
-  -webkit-transform: translateX(100px);
-      -ms-transform: translateX(100px);
-          transform: translateX(100px);
-  opacity: 0;
-  -webkit-transition: 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-  transition: 0.3s cubic-bezier(0.87, 0.13, 0.37, 0.94);
-}
 .welcome {
   background-color: #6c7a89;
   color: #e7e7e7;
@@ -1963,6 +1922,194 @@ a {
     transform: translate3d(0, 0, 0);
   }
 }
+.contact {
+  background-color: #f8f8f8;
+  padding: 9em 3em;
+}
+.contact__title {
+  display: block;
+  font-size: 2.953rem;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+.contact__subtitle {
+  display: block;
+  color: #525252;
+  font-size: 1.86rem;
+  text-align: center;
+}
+.form {
+  position: relative;
+  max-width: 70em;
+  margin: 7em auto 0 auto;
+  overflow: hidden;
+}
+.form__container__names,
+.form__subject__field,
+.form__email__field {
+  overflow: hidden;
+  margin-bottom: 2.5em;
+}
+.form__firstname__field,
+.form__lastname__field,
+.form__subject__field,
+.form__message__field,
+.form__email__field {
+  overflow: hidden;
+}
+.form__firstname__label,
+.form__lastname__label,
+.form__subject__label,
+.form__message__label,
+.form__email__label {
+  font-size: 1.8em;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.6em;
+}
+.form__firstname__input,
+.form__lastname__input,
+.form__subject__input,
+.form__message__input,
+.form__email__input {
+  display: block;
+  width: 100%;
+  font-size: 1.8em;
+  padding: 0.5em 0.9em;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  color: #4a4a4a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.form__firstname__input::-webkit-input-placeholder,
+.form__lastname__input::-webkit-input-placeholder,
+.form__subject__input::-webkit-input-placeholder,
+.form__message__input::-webkit-input-placeholder,
+.form__email__input::-webkit-input-placeholder {
+  color: #767676;
+}
+.form__firstname__input::-moz-placeholder,
+.form__lastname__input::-moz-placeholder,
+.form__subject__input::-moz-placeholder,
+.form__message__input::-moz-placeholder,
+.form__email__input::-moz-placeholder {
+  color: #767676;
+}
+.form__firstname__input:-ms-input-placeholder,
+.form__lastname__input:-ms-input-placeholder,
+.form__subject__input:-ms-input-placeholder,
+.form__message__input:-ms-input-placeholder,
+.form__email__input:-ms-input-placeholder {
+  color: #767676;
+}
+.form__firstname__input::placeholder,
+.form__lastname__input::placeholder,
+.form__subject__input::placeholder,
+.form__message__input::placeholder,
+.form__email__input::placeholder {
+  color: #767676;
+}
+.form__firstname__field {
+  float: left;
+  width: 32em;
+  display: inline-block;
+}
+.form__lastname__field {
+  float: right;
+  width: 32em;
+  display: inline-block;
+}
+.form__message__textarea {
+  width: 100%;
+  max-width: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-height: 15.432em;
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.8em;
+  line-height: 1.5em;
+  padding: 0.5em 0.7em;
+  outline: none;
+  color: #4a4a4a;
+}
+.form__message__textarea::-webkit-input-placeholder {
+  color: #767676;
+}
+.form__message__textarea::-moz-placeholder {
+  color: #767676;
+}
+.form__message__textarea:-ms-input-placeholder {
+  color: #767676;
+}
+.form__message__textarea::placeholder {
+  color: #767676;
+}
+.form__container__submit {
+  text-align: center;
+}
+.form__submit {
+  margin: 2em auto 0 auto;
+  cursor: pointer;
+  background-color: #1579bb;
+  border: none;
+  color: #e7e7e7;
+  font-size: 2.06em;
+  padding: 0.438em 2.375em 0.598em;
+  border: none;
+  border-radius: 8em;
+  letter-spacing: 0.7px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.form__submit:hover,
+.form__submit:focus {
+  background-color: #1e8bc3;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.form__submit__required {
+  font-size: 1.5em;
+  color: #525252;
+  display: block;
+  text-align: center;
+  padding: 0.8em;
+}
+@media screen and (max-width: 740px) {
+  .form__lastname__field,
+  .form__firstname__field {
+    float: none;
+    width: 100%;
+    display: block;
+    margin-bottom: 2.5em;
+  }
+  .form__container__names {
+    margin-bottom: 0;
+  }
+}
+.screen-reader-response {
+  display: none;
+}
+.form br {
+  display: none;
+}
+.wpcf7-not-valid-tip {
+  color: #ef4836;
+  display: block;
+  margin-top: 0.3em;
+  font-size: 1.6em;
+}
+.wpcf7-validation-errors {
+  color: #ef4836;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 0.1em;
+  line-height: 1.4;
+}
 .header {
   position: relative;
   left: 0;
@@ -1979,6 +2126,7 @@ a {
   position: absolute;
   bottom: -3px;
   left: 3em;
+  height: 5em;
 }
 .header__logo svg {
   position: relative;

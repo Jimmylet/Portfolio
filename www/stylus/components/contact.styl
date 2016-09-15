@@ -1,0 +1,129 @@
+.contact
+  background-color: color-background-light
+  padding: 9em 3em;
+  &__title
+    display: block;
+    font-size: 2.953rem;
+    margin-bottom: .7rem;
+    text-align center
+  &__subtitle
+    display block
+    color color-light-text
+    font-size 1.86rem
+    text-align center
+
+.form
+  position relative
+  max-width: 70em
+  margin 7em auto 0 auto
+  overflow: hidden
+  &__container__names
+  &__subject__field
+  &__email__field
+      overflow hidden
+      margin-bottom: 2.5em
+  &__firstname
+  &__lastname
+  &__subject
+  &__message
+  &__email
+    &__field
+      overflow: hidden
+    &__label
+      font-size 1.8em
+      display block
+      font-weight bold
+      margin-bottom 0.6em
+    &__input
+      display: block;
+      width 100%
+      font-size: 1.8em
+      padding: .5em .9em
+      outline: none
+      border none
+      border-radius 5px
+      color color-light-text - 10%
+      overflow: hidden;
+      text-overflow: ellipsis
+    &__input::placeholder
+      color #767676
+  &__firstname__field
+    float: left
+    width: 32em
+    display: inline-block;
+  &__lastname__field
+    float right
+    width: 32em
+    display: inline-block;
+  &__message
+    &__textarea
+      width: 100%;
+      max-width: none;
+      appearance: none;
+      min-height: 15.432em;
+      resize: none;
+      border: none
+      border-radius: 5px
+      font-size: 1.8em
+      line-height: 1.5em
+      padding: .5em .7em
+      outline: none
+      color color-light-text - 10%
+    &__textarea::placeholder
+      color #767676
+  &__container__submit
+    text-align: center;
+  &__submit
+    margin: 2em auto 0 auto
+    cursor: pointer;
+    background-color: color-blue-button
+    border: none
+    color color-text-white
+    font-size 2.06em
+    padding: 0.438em 2.375em 0.598em;
+    border none
+    border-radius: 8em
+    letter-spacing: .7px
+    transition background-color .3s ease
+    &:hover
+    &:focus
+      background-color: #1e8bc3
+      transition background-color .3s ease
+    &__required
+      font-size 1.5em
+      color color-light-text
+      display: block;
+      text-align center
+      padding: 0.8em
+
+@media screen and ( max-width: 740px )
+  .form__lastname__field
+  .form__firstname__field
+    float: none;
+    width: 100%
+    display: block;
+    margin-bottom: 2.5em
+  .form__container__names
+    margin-bottom 0
+
+/**************************\
+  Contact form 7
+/**************************/
+.screen-reader-response
+  display: none;
+
+.form br
+  display: none
+
+.wpcf7-not-valid-tip
+  color #EF4836
+  display block
+  margin-top 0.3em
+  font-size 1.6em
+
+.wpcf7-validation-errors
+  color #EF4836
+  font-size 1.6em
+  text-align center
+  padding: .1em
+  line-height 1.4
