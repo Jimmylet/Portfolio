@@ -30,18 +30,18 @@ get_header();
 </section>
 <section class="portfolio-techniques">
   <h2 aria-level="2" class="portfolio-techniques__section-title">
-      Sur un Baobab en bref
+      Le projet en bref
     </h2>
   <div class="porfolio-techniques__wrap">
     <div class="portfolio-techniques__wrap-content">
       <div class="portfolio-zonetext portfolio-role">
-        <span class="portfolio-zonetext__title">Mon rôle</span>
+        <h3 class="portfolio-zonetext__title">Mon rôle</h3>
         <p class="portfolio-zonetext__paragraph">
           <?php echo the_field("pf_role"); ?>
         </p>
       </div>
       <div class="portfolio-zonetext portfolio-tools">
-        <span class="portfolio-zonetext__title">Outils et technologies</span>
+        <h3 class="portfolio-zonetext__title">Outils et technologies</h3>
         <p class="portfolio-zonetext__paragraph">
           <?php echo the_field("pf_toolstechno"); ?>
         </p>
@@ -51,7 +51,7 @@ get_header();
     <div class="portfolio-techniques__wrap-content portfolio-techniques__wrap-content-2">
       <div class="portfolio-zone-text portfolio-zone-font">
         <div class="portfolio-zonetext portfolio-color">
-          <span class="portfolio-zonetext__title">Palette de couleur</span>
+          <h3 class="portfolio-zonetext__title">Palette de couleur</h3>
           <div class="portfolio-zonetext__wrap-svg">
 
             <?php $image = get_field('pf_palette'); if( !empty($image) ): ?>
@@ -61,7 +61,7 @@ get_header();
           </div>
         </div>
         <div class="portfolio-zonetext portfolio-fonts">
-          <span class="portfolio-zonetext__title">Fonts</span>
+          <h3 class="portfolio-zonetext__title">Fonts</h3>
           <p class="portfolio-zonetext__fonts-text">
             Raleway, Handofsean
           </p>
@@ -72,7 +72,7 @@ get_header();
       </div>
 
       <div class="portfolio-zonetext portfolio-contraintes">
-        <span class="portfolio-zonetext__title">Contraintes et solutions</span>
+        <h3 class="portfolio-zonetext__title">Contraintes et solutions</h3>
         <p class="portfolio-zonetext__paragraph">
             <?php echo the_field("pf_contraintes"); ?>
         </p>

@@ -1159,6 +1159,8 @@ a {
   border-radius: 10rem;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
+  text-align: center;
+  line-height: 1.5em;
 }
 .about-cv__download:hover,
 .about-cv__download:focus {
@@ -1988,28 +1990,28 @@ a {
 .form__subject__input::-webkit-input-placeholder,
 .form__message__input::-webkit-input-placeholder,
 .form__email__input::-webkit-input-placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__firstname__input::-moz-placeholder,
 .form__lastname__input::-moz-placeholder,
 .form__subject__input::-moz-placeholder,
 .form__message__input::-moz-placeholder,
 .form__email__input::-moz-placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__firstname__input:-ms-input-placeholder,
 .form__lastname__input:-ms-input-placeholder,
 .form__subject__input:-ms-input-placeholder,
 .form__message__input:-ms-input-placeholder,
 .form__email__input:-ms-input-placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__firstname__input::placeholder,
 .form__lastname__input::placeholder,
 .form__subject__input::placeholder,
 .form__message__input::placeholder,
 .form__email__input::placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__firstname__field {
   float: left;
@@ -2038,16 +2040,16 @@ a {
   color: #4a4a4a;
 }
 .form__message__textarea::-webkit-input-placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__message__textarea::-moz-placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__message__textarea:-ms-input-placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__message__textarea::placeholder {
-  color: #767676;
+  color: #9f9f9f;
 }
 .form__container__submit {
   text-align: center;

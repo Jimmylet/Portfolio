@@ -56,7 +56,7 @@ get_header();
 
   </div>
 
-  <a href="#" class="about-cv__download"><span>Télécharger mon CV</span></a>
+  <a href="<?php echo the_field("about_downloadcv"); ?>" class="about-cv__download"><span>Télécharger mon CV</span></a>
 </section>
 
 <section class="skills">
